@@ -21,10 +21,10 @@ The code has only been tested with firefox.
 
 ### Python packages :
 In order to be able to run this code of course you need to have python3 but also some python packages :
-* `selenium`
-* `argparse`
-* `BioPython`
-* `pandas`
+* [`selenium`](https://selenium-python.readthedocs.io/)
+* [`argparse`](https://docs.python.org/3/library/argparse.html)
+* [`BioPython`](https://biopython.org/)
+* [`pandas`](https://pandas.pydata.org/)
 
 PyPi installation :
 ```shell
@@ -48,11 +48,11 @@ selenium requires [geckodriver](https://github.com/mozilla/geckodriver/releases)
 
 ### Script files :
 
-`Conservation.py`
-`Auto_Uniprot.py`
-`Blast_Align.py`
-`Auto_Mafft.py`
-`Res_Conserv_Score.py`
+[`Conservation.py`](https://github.com/hocinebib/ResConsScorePipeline/blob/main/scr/Conservation.py)
+[`Auto_Uniprot.py`](https://github.com/hocinebib/ResConsScorePipeline/blob/main/scr/Auto_Uniprot.py)
+[`Blast_Align.py`](https://github.com/hocinebib/ResConsScorePipeline/blob/main/scr/Blast_Align.py)
+[`Auto_Mafft.py`](https://github.com/hocinebib/ResConsScorePipeline/blob/main/scr/Auto_Mafft.py)
+[`Res_Conserv_Score.py`](https://github.com/hocinebib/ResConsScorePipeline/blob/main/scr/Res_Conserv_Score.py)
 
 ## Usage :
 1. First clone this repository :

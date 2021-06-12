@@ -79,6 +79,6 @@ if __name__ == '__main__':
 
         CONS_DICT = rcs.score_csv(rcs.launch_score_calculation(rcs.start(), MUL_ALI_FILE))
 
-        pd.DataFrame.from_dict(CONS_DICT).to_csv(os.getcwd()+'/'+p+'_ResConsScores.csv')
+        pd.DataFrame.from_dict(CONS_DICT).to_csv(os.getcwd()+'/Results/'+p+'_ResConsScores.csv')
 
     browser.close()
