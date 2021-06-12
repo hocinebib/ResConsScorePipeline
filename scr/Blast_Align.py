@@ -17,6 +17,7 @@ Then you can run the script with the following command :
 
 import requests as r
 import argparse
+import os
 from Bio import SeqIO
 from io import StringIO
 from Bio.Blast import NCBIWWW
@@ -57,6 +58,9 @@ def run_blastp(sequence, cID):
 
     print('writing in fasta format')
 
+    if not os.path.exists('../Results'):
+        os.makedirs('../Results')
+
     with open(cID+"_blastp.xml", 'r') as blast_file:
         for line in blast_file:
             if line.strip().startswith('<Hit_def>'):
@@ -69,7 +73,7 @@ def run_blastp(sequence, cID):
 
     #print(dico)
 
-    fasta_seq = open(cID+'_Homologous_sequences.fasta', 'w')
+    fasta_seq = open('../Results/'+cID+'_Homologous_sequences.fasta', 'w')
     for k in dico:
         fasta_seq.write(k)
         fasta_seq.write('\n\n')
