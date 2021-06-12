@@ -50,10 +50,10 @@ def launch_score_calculation(driver, alignment_file):
     while new == url:
         new = driver.current_url
 
-    with open(''+new.split('/')[-1].split('.')[-2]+'.txt', 'w') as f:
+    with open('Results/'+new.split('/')[-1].split('.')[-2]+'.txt', 'w') as f:
         f.write(driver.page_source)
 
-    return ''+new.split('/')[-1].split('.')[-2]+'.txt'
+    return 'Results/'+new.split('/')[-1].split('.')[-2]+'.txt'
 
 def score_csv(score_file):
     """

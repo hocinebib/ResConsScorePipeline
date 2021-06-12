@@ -52,7 +52,7 @@ def run_blastp(sequence, cID):
     if not os.path.exists('Results'):
         os.makedirs('Results')
 
-    with open('Results'+cID+"_blastp.xml", "w") as out_handle:
+    with open('Results/'+cID+"_blastp.xml", "w") as out_handle:
         out_handle.write(result_handle.read())
 
     result_handle.close()
@@ -61,7 +61,7 @@ def run_blastp(sequence, cID):
 
     print('writing in fasta format')
 
-    with open('Results'+cID+"_blastp.xml", 'r') as blast_file:
+    with open('Results/'+cID+"_blastp.xml", 'r') as blast_file:
         for line in blast_file:
             if line.strip().startswith('<Hit_def>'):
                 k = '>'+line.split('>')[1].split('<')[0]
@@ -73,7 +73,7 @@ def run_blastp(sequence, cID):
 
     #print(dico)
 
-    fasta_seq = open('Results/'+cID+'_Homologous_sequences.fasta', 'w')
+    fasta_seq = open('Results/'+cID+'_HomolSeq.fasta', 'w')
     for k in dico:
         fasta_seq.write(k)
         fasta_seq.write('\n\n')
@@ -82,7 +82,7 @@ def run_blastp(sequence, cID):
 
     fasta_seq.close()
 
-    print('Done')
+    print('Done.')
 
 if __name__ == '__main__':
 
