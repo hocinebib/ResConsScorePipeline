@@ -77,7 +77,7 @@ if __name__ == '__main__':
 
         MUL_ALI_FILE = os.getcwd()+'/Results/'+PID+'_HomolSeq_MAFFT.fasta'
 
-        CONS_DICT = rcs.score_csv(rcs.launch_score_calculation(rcs.start(), MUL_ALI_FILE))
+        CONS_DICT = rcs.score_csv(rcs.launch_score_calculation(rcs.start(), MUL_ALI_FILE, p))
 
         pd.DataFrame.from_dict(CONS_DICT).to_csv(os.getcwd()+'/Results/'+p+'_ResConsScores.csv')
 

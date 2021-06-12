@@ -35,7 +35,7 @@ def start():
 
     return driver
 
-def launch_score_calculation(driver, alignment_file):
+def launch_score_calculation(driver, alignment_file, prot):
     """
     """
     url = driver.current_url
@@ -49,10 +49,10 @@ def launch_score_calculation(driver, alignment_file):
     while new == url:
         new = driver.current_url
 
-    with open('Results/'+new.split('/')[-1].split('.')[-2]+'.txt', 'w') as f:
+    with open('Results/'+prot+'_'+new.split('/')[-1].split('.')[-2]+'.txt', 'w') as f:
         f.write(driver.page_source)
 
-    return 'Results/'+new.split('/')[-1].split('.')[-2]+'.txt'
+    return 'Results/'+prot+'_'+new.split('/')[-1].split('.')[-2]+'.txt'
 
 def score_csv(score_file):
     """
@@ -80,4 +80,4 @@ if __name__ == '__main__':
 
     MUL_ALI_FILE = ARGS.mul_ali_file
 
-    pd.DataFrame.from_dict(score_csv(launch_score_calculation(start(), MUL_ALI_FILE))).to_csv(MUL_ALI_FILE.split('/')[-1].split('.')[-2]+'.csv')
+    pd.DataFrame.from_dict(score_csv(launch_score_calculation(start(), MUL_ALI_FILE, 'test'))).to_csv(MUL_ALI_FILE.split('/')[-1].split('.')[-2]+'.csv')
