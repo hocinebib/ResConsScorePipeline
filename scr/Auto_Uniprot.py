@@ -64,7 +64,7 @@ def uniprot_id(driver, protein):
 
     name = driver.find_elements_by_class_name('entryID')
 
-    return protein+" uniprotid :"+name[i].text, hit.text
+    return name[i].text
 
 
 
