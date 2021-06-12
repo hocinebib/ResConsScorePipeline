@@ -21,7 +21,6 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.firefox.options import Options
 import time
 import os
-from halo import Halo
 
 
 def start():
