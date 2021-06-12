@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.12.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_47427</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>383</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_47427</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>383</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>sp|P52477.1|</Hit_id>
+  <Hit_def>RecName: Full=Multidrug resistance protein MexA; Flags: Precursor [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>P52477</Hit_accession>
+  <Hit_len>383</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>768.074</Hsp_bit-score>
+      <Hsp_score>1982</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>383</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>383</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>383</Hsp_identity>
+      <Hsp_positive>383</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>383</Hsp_align-len>
+      <Hsp_qseq>MQRTPAMRVLVPALLVAISALSGCGKSEAPPPAQTPEVGIVTLEAQTVTLNTELPGRTNAFRIAEVRPQVNGIILKRLFKEGSDVKAGQQLYQIDPATYEADYQSAQANLASTQEQAQRYKLLVADQAVSKQQYADANAAYLQSKAAVEQARINLRYTKVLSPISGRIGRSAVTEGALVTNGQANAMATVQQLDPIYVDVTQPSTALLRLRRELASGQLERAGDNAAKVSLKLEDGSQYPLEGRLEFSEVSVDEGTGSVTIRAVFPNPNNELLPGMFVHAQLQEGVKQKAILAPQQGVTRDLKGQATALVVNAQNKVELRVIKADRVIGDKWLVTEGLNAGDKIITEGLQFVQPGVEVKTVPAKNVASAQKADAAPAKTDSKG</Hsp_qseq>
+      <Hsp_hseq>MQRTPAMRVLVPALLVAISALSGCGKSEAPPPAQTPEVGIVTLEAQTVTLNTELPGRTNAFRIAEVRPQVNGIILKRLFKEGSDVKAGQQLYQIDPATYEADYQSAQANLASTQEQAQRYKLLVADQAVSKQQYADANAAYLQSKAAVEQARINLRYTKVLSPISGRIGRSAVTEGALVTNGQANAMATVQQLDPIYVDVTQPSTALLRLRRELASGQLERAGDNAAKVSLKLEDGSQYPLEGRLEFSEVSVDEGTGSVTIRAVFPNPNNELLPGMFVHAQLQEGVKQKAILAPQQGVTRDLKGQATALVVNAQNKVELRVIKADRVIGDKWLVTEGLNAGDKIITEGLQFVQPGVEVKTVPAKNVASAQKADAAPAKTDSKG</Hsp_hseq>
+      <Hsp_midline>MQRTPAMRVLVPALLVAISALSGCGKSEAPPPAQTPEVGIVTLEAQTVTLNTELPGRTNAFRIAEVRPQVNGIILKRLFKEGSDVKAGQQLYQIDPATYEADYQSAQANLASTQEQAQRYKLLVADQAVSKQQYADANAAYLQSKAAVEQARINLRYTKVLSPISGRIGRSAVTEGALVTNGQANAMATVQQLDPIYVDVTQPSTALLRLRRELASGQLERAGDNAAKVSLKLEDGSQYPLEGRLEFSEVSVDEGTGSVTIRAVFPNPNNELLPGMFVHAQLQEGVKQKAILAPQQGVTRDLKGQATALVVNAQNKVELRVIKADRVIGDKWLVTEGLNAGDKIITEGLQFVQPGVEVKTVPAKNVASAQKADAAPAKTDSKG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>sp|P0C069.1|</Hit_id>
+  <Hit_def>RecName: Full=Multidrug/solvent efflux pump periplasmic linker protein MepA; Flags: Precursor [Pseudomonas putida] &gt;sp|Q88N30.1| RecName: Full=Probable efflux pump periplasmic linker TtgA; Flags: Precursor [Pseudomonas putida KT2440]</Hit_def>
+  <Hit_accession>P0C069</Hit_accession>
+  <Hit_len>384</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>489.96</Hsp_bit-score>
+      <Hsp_score>1260</Hsp_score>
+      <Hsp_evalue>6.66796e-173</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>366</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>365</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>303</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>366</Hsp_align-len>
+      <Hsp_qseq>MQRTPAMRVLVPALLVAISALSGCGKSEAPPPAQTPEVGIVTLEAQTVTLNTELPGRTNAFRIAEVRPQVNGIILKRLFKEGSDVKAGQQLYQIDPATYEADYQSAQANLASTQEQAQRYKLLVADQAVSKQQYADANAAYLQSKAAVEQARINLRYTKVLSPISGRIGRSAVTEGALVTNGQANAMATVQQLDPIYVDVTQPSTALLRLRRELASGQLERAGDNAAKVSLKLEDGSQYPLEGRLEFSEVSVDEGTGSVTIRAVFPNPNNELLPGMFVHAQLQEGVKQKAILAPQQGVTRDLKGQATALVVNAQNKVELRVIKADRVIGDKWLVTEGLNAGDKIITEGLQFVQPGVEVKTVPAKNV</Hsp_qseq>
+      <Hsp_hseq>MQFKPAVTALVSAVALA-TLLSGCKKEEAAPAAQAPQVGVVTIQPQAFTLTSELPGRTSAYRVAEVRPQVNGIILKRLFKEGSEVKEGQQLYQIDPAVYEATLANAKANLLATRSLAERYKQLIDEQAVSKQEYDDANAKRLQAEASLKSAQIDLRYTKVLAPISGRIGRSSFTEGALVSNGQTDAMATIQQLDPIYVDVTQSTAELLKLRRDLESGQLQKAGDNAASVQLVLEDGSLFKQEGRLEFSEVAVDETTGSVTLRALFPNPDHTLLPGMFVHARLKAGVNANAILAPQQGVTRDLKGAPTALVVNQENKVELRQLKASRTLGSDWLIEEGLNPGDRLITEGLQYVRPGVEVKVSDATNV</Hsp_hseq>
+      <Hsp_midline>MQ  PA+  LV A+ +A + LSGC K EA P AQ P+VG+VT++ Q  TL +ELPGRT+A+R+AEVRPQVNGIILKRLFKEGS+VK GQQLYQIDPA YEA   +A+ANL +T+  A+RYK L+ +QAVSKQ+Y DANA  LQ++A+++ A+I+LRYTKVL+PISGRIGRS+ TEGALV+NGQ +AMAT+QQLDPIYVDVTQ +  LL+LRR+L SGQL++AGDNAA V L LEDGS +  EGRLEFSEV+VDE TGSVT+RA+FPNP++ LLPGMFVHA+L+ GV   AILAPQQGVTRDLKG  TALVVN +NKVELR +KA R +G  WL+ EGLN GD++ITEGLQ+V+PGVEVK   A NV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>sp|Q9WWZ9.1|</Hit_id>
+  <Hit_def>RecName: Full=Toluene efflux pump periplasmic linker protein TtgA; Flags: Precursor [Pseudomonas putida DOT-T1E]</Hit_def>
+  <Hit_accession>Q9WWZ9</Hit_accession>
+  <Hit_len>384</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>488.034</Hsp_bit-score>
+      <Hsp_score>1255</Hsp_score>
+      <Hsp_evalue>4.82581e-172</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>366</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>365</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>248</Hsp_identity>
+      <Hsp_positive>303</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>366</Hsp_align-len>
+      <Hsp_qseq>MQRTPAMRVLVPALLVAISALSGCGKSEAPPPAQTPEVGIVTLEAQTVTLNTELPGRTNAFRIAEVRPQVNGIILKRLFKEGSDVKAGQQLYQIDPATYEADYQSAQANLASTQEQAQRYKLLVADQAVSKQQYADANAAYLQSKAAVEQARINLRYTKVLSPISGRIGRSAVTEGALVTNGQANAMATVQQLDPIYVDVTQPSTALLRLRRELASGQLERAGDNAAKVSLKLEDGSQYPLEGRLEFSEVSVDEGTGSVTIRAVFPNPNNELLPGMFVHAQLQEGVKQKAILAPQQGVTRDLKGQATALVVNAQNKVELRVIKADRVIGDKWLVTEGLNAGDKIITEGLQFVQPGVEVKTVPAKNV</Hsp_qseq>
+      <Hsp_hseq>MQFKPAVTALVSAVALA-TLLSGCKKEEAAPAAQAPQVGVVTIQPQAFTLTSELPGRTSAYRVAEVRPQVNGIILKRLFKEGSEVKEGQQLYQIDPAVYEATLANAKANLLATRSLAERYKQLIDEQAVSKQEYDDANAKRLQAEASLKSAQIDLRYTKVLAPISGRIGRSSFTEGALVSNGQTDAMATIQQLDPIYVDVTQSTAELLKLRRDLESGQLQKAGNNAASVQLVLEDGSLFKQEGRLEFSEVAVDETTGSVTLRALFPNPDHTLLPGMFVHARLKAGVNANAILAPQQGVTRDLKGAPTALVVNQENKVELRQLKASRTLGSDWLIEEGLNPGDRLITEGLQYVRPGVEVKVSDATNV</Hsp_hseq>
+      <Hsp_midline>MQ  PA+  LV A+ +A + LSGC K EA P AQ P+VG+VT++ Q  TL +ELPGRT+A+R+AEVRPQVNGIILKRLFKEGS+VK GQQLYQIDPA YEA   +A+ANL +T+  A+RYK L+ +QAVSKQ+Y DANA  LQ++A+++ A+I+LRYTKVL+PISGRIGRS+ TEGALV+NGQ +AMAT+QQLDPIYVDVTQ +  LL+LRR+L SGQL++AG+NAA V L LEDGS +  EGRLEFSEV+VDE TGSVT+RA+FPNP++ LLPGMFVHA+L+ GV   AILAPQQGVTRDLKG  TALVVN +NKVELR +KA R +G  WL+ EGLN GD++ITEGLQ+V+PGVEVK   A NV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>sp|Q9KJC3.1|</Hit_id>
+  <Hit_def>RecName: Full=Antibiotic efflux pump periplasmic linker protein ArpA; Flags: Precursor [Pseudomonas putida]</Hit_def>
+  <Hit_accession>Q9KJC3</Hit_accession>
+  <Hit_len>371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>474.167</Hsp_bit-score>
+      <Hsp_score>1219</Hsp_score>
+      <Hsp_evalue>6.6231e-167</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>354</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>353</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>240</Hsp_identity>
+      <Hsp_positive>294</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>354</Hsp_align-len>
+      <Hsp_qseq>MQRTPAMRVLVPALLVAISALSGCGKSEAPPPAQTPEVGIVTLEAQTVTLNTELPGRTNAFRIAEVRPQVNGIILKRLFKEGSDVKAGQQLYQIDPATYEADYQSAQANLASTQEQAQRYKLLVADQAVSKQQYADANAAYLQSKAAVEQARINLRYTKVLSPISGRIGRSAVTEGALVTNGQANAMATVQQLDPIYVDVTQPSTALLRLRRELASGQLERAGDNAAKVSLKLEDGSQYPLEGRLEFSEVSVDEGTGSVTIRAVFPNPNNELLPGMFVHAQLQEGVKQKAILAPQQGVTRDLKGQATALVVNAQNKVELRVIKADRVIGDKWLVTEGLNAGDKIITEGLQFVQP</Hsp_qseq>
+      <Hsp_hseq>MQFKPAVTALVSAVALA-TLLSGCKKEEAAPAAQAPQVGVVTIQPQAFTLTSELPGRTSAYRVAEVRPQVNGIILKRLFKEGSEVKEGQQLYQIDPAVYEATLANAKANLLATRSLAERYKQLIDEQAVSKQEYDDANAKRLQAEASLKSAQIDLRYTKVLAPISGRIGRSSFTEGALVSNGQTDAMATIQQLDPIYVDVTQSTAELLKLRRDLESGQLQKAGNNAASVQLVLEDGSLFKQEGRLEFSEVAVDETTGSVTLRALFPNPDHTLLPGMFVHARLKAGVNANAILAPQQGVTRDLKGAPTALVVNQENKVELRQLKASRTLGSDWLIEEGLNPGDRLITEGLQYVSP</Hsp_hseq>
+      <Hsp_midline>MQ  PA+  LV A+ +A + LSGC K EA P AQ P+VG+VT++ Q  TL +ELPGRT+A+R+AEVRPQVNGIILKRLFKEGS+VK GQQLYQIDPA YEA   +A+ANL +T+  A+RYK L+ +QAVSKQ+Y DANA  LQ++A+++ A+I+LRYTKVL+PISGRIGRS+ TEGALV+NGQ +AMAT+QQLDPIYVDVTQ +  LL+LRR+L SGQL++AG+NAA V L LEDGS +  EGRLEFSEV+VDE TGSVT+RA+FPNP++ LLPGMFVHA+L+ GV   AILAPQQGVTRDLKG  TALVVN +NKVELR +KA R +G  WL+ EGLN GD++ITEGLQ+V P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>sp|O31099.1|</Hit_id>
+  <Hit_def>RecName: Full=Solvent efflux pump periplasmic linker SrpA; Flags: Precursor [Pseudomonas putida]</Hit_def>
+  <Hit_accession>O31099</Hit_accession>
+  <Hit_len>382</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>425.246</Hsp_bit-score>
+      <Hsp_score>1092</Hsp_score>
+      <Hsp_evalue>1.99715e-147</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>366</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>367</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>278</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>368</Hsp_align-len>
+      <Hsp_qseq>RTPAMRVLVPALLVAISALSGCGKSE----APPPAQTPEVGIVTLEAQTVTLNTELPGRTNAFRIAEVRPQVNGIILKRLFKEGSDVKAGQQLYQIDPATYEADYQSAQANLASTQEQAQRYKLLVADQAVSKQQYADANAAYLQSKAAVEQARINLRYTKVLSPISGRIGRSAVTEGALVTNGQANAMATVQQLDPIYVDVTQPSTALLRLRRELASGQLERAGDNAAKVSLKLEDGSQYPLEGRLEFSEVSVDEGTGSVTIRAVFPNPNNELLPGMFVHAQLQEGVKQKAILAPQQGVTRDLKGQATALVVNAQNKVELRVIKADRVIGDKWLVTEGLNAGDKIITEGLQFVQPGVEVKTVPAKNV</Hsp_qseq>
+      <Hsp_hseq>RSPRALRVIP--LTALMLISGCGEKEQVSSATPP---PDVGVYTVRAQALTLTTDLPGRTSAFRVAEVRPQVSGILQKRSFVEGAEVKLGQQLYQIDPRTYEAQLRRAEANRTSAQNLARRYETLLKTKAVSKQQYDDALAAWKQAEADYQVARIDVQYTRVLSPISGRIGRSTVTEGALVTNGQAQSLATVTQLDPIYVDVTQPITKLLGLQKALESGRLQKTGENQAEVSLTLDDGSAYPLPGTLKFSEVSVDPTTGSVTLRAEFPNPNRKLLPGMFVHALLKEGVQNAAILVPQQAISRDTRGVPSVWVVKADNTVESREIQTLRTVGNAWLISNGVTEGERIITEGVQRVRSGIAVNAVEAKNV</Hsp_hseq>
+      <Hsp_midline>R+P    ++P  L A+  +SGCG+ E    A PP   P+VG+ T+ AQ +TL T+LPGRT+AFR+AEVRPQV+GI+ KR F EG++VK GQQLYQIDP TYEA  + A+AN  S Q  A+RY+ L+  +AVSKQQY DA AA+ Q++A  + ARI+++YT+VLSPISGRIGRS VTEGALVTNGQA ++ATV QLDPIYVDVTQP T LL L++ L SG+L++ G+N A+VSL L+DGS YPL G L+FSEVSVD  TGSVT+RA FPNPN +LLPGMFVHA L+EGV+  AIL PQQ ++RD +G  +  VV A N VE R I+  R +G+ WL++ G+  G++IITEG+Q V+ G+ V  V AKNV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>sp|Q93PU5.2|</Hit_id>
+  <Hit_def>RecName: Full=Toluene efflux pump periplasmic linker protein TtgG; Flags: Precursor [Pseudomonas putida DOT-T1E]</Hit_def>
+  <Hit_accession>Q93PU5</Hit_accession>
+  <Hit_len>391</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>425.246</Hsp_bit-score>
+      <Hsp_score>1092</Hsp_score>
+      <Hsp_evalue>3.38685e-147</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>366</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>376</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>278</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>368</Hsp_align-len>
+      <Hsp_qseq>RTPAMRVLVPALLVAISALSGCGKSE----APPPAQTPEVGIVTLEAQTVTLNTELPGRTNAFRIAEVRPQVNGIILKRLFKEGSDVKAGQQLYQIDPATYEADYQSAQANLASTQEQAQRYKLLVADQAVSKQQYADANAAYLQSKAAVEQARINLRYTKVLSPISGRIGRSAVTEGALVTNGQANAMATVQQLDPIYVDVTQPSTALLRLRRELASGQLERAGDNAAKVSLKLEDGSQYPLEGRLEFSEVSVDEGTGSVTIRAVFPNPNNELLPGMFVHAQLQEGVKQKAILAPQQGVTRDLKGQATALVVNAQNKVELRVIKADRVIGDKWLVTEGLNAGDKIITEGLQFVQPGVEVKTVPAKNV</Hsp_qseq>
+      <Hsp_hseq>RSPRALRVIP--LTALMLISGCGEKEQVSSATPP---PDVGVYTVRAQALTLTTDLPGRTSAFRVAEVRPQVSGILQKRSFVEGAEVKLGQQLYQIDPRTYEAQLRRAEANRTSAQNLARRYETLLKTKAVSKQQYDDALAAWKQAEADYQVARIDVQYTRVLSPISGRIGRSTVTEGALVTNGQAQSLATVTQLDPIYVDVTQPITKLLGLQKALESGRLQKTGENQAEVSLTLDDGSAYPLPGTLKFSEVSVDPTTGSVTLRAEFPNPNRKLLPGMFVHALLKEGVQNAAILVPQQAISRDTRGVPSVWVVKADNTVESREIQTLRTVGNAWLISNGVTEGERIITEGVQRVRSGIAVNAVEAKNV</Hsp_hseq>
+      <Hsp_midline>R+P    ++P  L A+  +SGCG+ E    A PP   P+VG+ T+ AQ +TL T+LPGRT+AFR+AEVRPQV+GI+ KR F EG++VK GQQLYQIDP TYEA  + A+AN  S Q  A+RY+ L+  +AVSKQQY DA AA+ Q++A  + ARI+++YT+VLSPISGRIGRS VTEGALVTNGQA ++ATV QLDPIYVDVTQP T LL L++ L SG+L++ G+N A+VSL L+DGS YPL G L+FSEVSVD  TGSVT+RA FPNPN +LLPGMFVHA L+EGV+  AIL PQQ ++RD +G  +  VV A N VE R I+  R +G+ WL++ G+  G++IITEG+Q V+ G+ V  V AKNV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>sp|Q849Q9.1|</Hit_id>
+  <Hit_def>RecName: Full=Probable efflux pump periplasmic linker protein SepA; Flags: Precursor [Pseudomonas putida F1] &gt;sp|Q9KWV5.2| RecName: Full=Toluene efflux pump periplasmic linker protein TtgD; Flags: Precursor [Pseudomonas putida DOT-T1E]</Hit_def>
+  <Hit_accession>Q849Q9</Hit_accession>
+  <Hit_len>382</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>409.838</Hsp_bit-score>
+      <Hsp_score>1052</Hsp_score>
+      <Hsp_evalue>2.71573e-141</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>366</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>367</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>209</Hsp_identity>
+      <Hsp_positive>271</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>367</Hsp_align-len>
+      <Hsp_qseq>MQRTPAMRVLVPALLVAISALSGCGKSEA-PPPAQTPEVGIVTLEAQTVTLNTELPGRTNAFRIAEVRPQVNGIILKRLFKEGSDVKAGQQLYQIDPATYEADYQSAQANLASTQEQAQRYKLLVADQAVSKQQYADANAAYLQSKAAVEQARINLRYTKVLSPISGRIGRSAVTEGALVTNGQANAMATVQQLDPIYVDVTQPSTALLRLRRELASGQLERAGDNAAKVSLKLEDGSQYPLEGRLEFSEVSVDEGTGSVTIRAVFPNPNNELLPGMFVHAQLQEGVKQKAILAPQQGVTRDLKGQATALVVNAQNKVELRVIKADRVIGDKWLVTEGLNAGDKIITEGLQFVQPGVEVKTVPAKNV</Hsp_qseq>
+      <Hsp_hseq>LERALRARQLIP--LAAIWLLVGCGKQETVESTAVPPEVGVYTVKAQALTLTTDLPGRTSAYRVSEVRPQASGILQKRMFVEGAEVKQGEQLYQIDPRTYEALLARAEASLLTAQNLARRYERLLDTNAISQQQYDDAMATWKQAQAEAQMARINMQYTKVLAPITGRIGRSAVTEGALVTNGQAQELATVTQLDPIYVDVNQPITRLLGLKRALESGRLQRVGDNQAQVSLTLDDGTPYPLKGVLKFSEVSVAPSTGSVTLRAEFPNPDHKLLPGMFVHALLNEGEQQAAILVPHQAVGRDARGVPTVWVVKPDNTVESREVQTLQTVGNAWLLGAGINDGERVITEGVQLARSGITVKPVAAKNV</Hsp_hseq>
+      <Hsp_midline>++R    R L+P  L AI  L GCGK E     A  PEVG+ T++AQ +TL T+LPGRT+A+R++EVRPQ +GI+ KR+F EG++VK G+QLYQIDP TYEA    A+A+L + Q  A+RY+ L+   A+S+QQY DA A + Q++A  + ARIN++YTKVL+PI+GRIGRSAVTEGALVTNGQA  +ATV QLDPIYVDV QP T LL L+R L SG+L+R GDN A+VSL L+DG+ YPL+G L+FSEVSV   TGSVT+RA FPNP+++LLPGMFVHA L EG +Q AIL P Q V RD +G  T  VV   N VE R ++  + +G+ WL+  G+N G+++ITEG+Q  + G+ VK V AKNV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>sp|P0AE06.1|</Hit_id>
+  <Hit_def>RecName: Full=Multidrug efflux pump subunit AcrA; AltName: Full=AcrAB-TolC multidrug efflux pump subunit AcrA; AltName: Full=Acridine resistance protein A; Flags: Precursor [Escherichia coli K-12] &gt;sp|P0AE07.1| RecName: Full=Multidrug efflux pump subunit AcrA; AltName: Full=AcrAB-TolC multidrug efflux pump subunit AcrA; AltName: Full=Acriflavine resistance protein A; Flags: Precursor [Escherichia coli O157:H7]</Hit_def>
+  <Hit_accession>P0AE06</Hit_accession>
+  <Hit_len>397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>390.963</Hsp_bit-score>
+      <Hsp_score>1003</Hsp_score>
+      <Hsp_evalue>9.90185e-134</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>359</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>374</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>371</Hsp_align-len>
+      <Hsp_qseq>TPAMRVLVPALLVAISALSGCGKSEAPPPAQ-TPEVGIVTLEAQTVTLNTELPGRTNAFRIAEVRPQVNGIILKRLFKEGSDVKAGQQLYQIDPATYEADYQSAQANLAST-------QEQAQRYKLLVADQAVSKQQYADANAAYLQSKAA-------VEQARINLRYTKVLSPISGRIGRSAVTEGALVTNGQANAMATVQQLDPIYVDVTQPSTALLRLRRELASGQLERAGDNAAKVSLKLEDGSQYPLEGRLEFSEVSVDEGTGSVTIRAVFPNPNNELLPGMFVHAQLQEGVKQKAILAPQQGVTRDLKGQATALVVNAQNKVELRVIKADRVIGDKWLVTEGLNAGDKIITEGLQFVQPGVEVK</Hsp_qseq>
+      <Hsp_hseq>TPLAVVL---MLSGSLALTGCDDKQAQQGGQQMPAVGVVTVKTEPLQITTELPGRTSAYRIAEVRPQVSGIILKRNFKEGSDIEAGVSLYQIDPATYQATYDSAKGDLAKAQAAANIAQLTVNRYQKLLGTQYISKQEYDQALADAQQANAAVTAAKAAVETARINLAYTKVTSPISGRIGKSNVTEGALVQNGQATALATVQQLDPIYVDVTQSSNDFLRLKQELANGTLKQE-NGKAKVSLITSDGIKFPQDGTLEFSDVTVDQTTGSITLRAIFPNPDHTLLPGMFVRARLEEGLNPNAILVPQQGVTRTPRGDATVLVVGADDKVETRPIVASQAIGDKWLVTEGLKAGDRVVISGLQKVRPGVQVK</Hsp_hseq>
+      <Hsp_midline>TP   VL   +L    AL+GC   +A    Q  P VG+VT++ + + + TELPGRT+A+RIAEVRPQV+GIILKR FKEGSD++AG  LYQIDPATY+A Y SA+ +LA         Q    RY+ L+  Q +SKQ+Y  A A   Q+ AA       VE ARINL YTKV SPISGRIG+S VTEGALV NGQA A+ATVQQLDPIYVDVTQ S   LRL++ELA+G L++  +  AKVSL   DG ++P +G LEFS+V+VD+ TGS+T+RA+FPNP++ LLPGMFV A+L+EG+   AIL PQQGVTR  +G AT LVV A +KVE R I A + IGDKWLVTEGL AGD+++  GLQ V+PGV+VK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>sp|P24180.2|</Hit_id>
+  <Hit_def>RecName: Full=Multidrug export protein AcrE; AltName: Full=Acriflavine resistance protein E; AltName: Full=Protein EnvC; Flags: Precursor [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P24180</Hit_accession>
+  <Hit_len>385</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.081</Hsp_bit-score>
+      <Hsp_score>941</Hsp_score>
+      <Hsp_evalue>2.07854e-124</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>359</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>373</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>260</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>371</Hsp_align-len>
+      <Hsp_qseq>AMRVLVPA-LLVAISALSGCG-KSEAPPPAQTPEVGIVTLEAQTVTLNTELPGRTNAFRIAEVRPQVNGIILKRLFKEGSDVKAGQQLYQIDPATYEADYQSAQANLASTQEQ-------AQRYKLLVADQAVSKQQYADANAAYLQSKA-------AVEQARINLRYTKVLSPISGRIGRSAVTEGALVTNGQANAMATVQQLDPIYVDVTQPSTALLRLRRELASGQLERAGDNA-AKVSLKLEDGSQYPLEGRLEFSEVSVDEGTGSVTIRAVFPNPNNELLPGMFVHAQLQEGVKQKAILAPQQGVTRDLKGQATALVVNAQNKVELRVIKADRVIGDKWLVTEGLNAGDKIITEGLQFVQPGVEVK</Hsp_qseq>
+      <Hsp_hseq>ARFFLLPSFILISAALIAGCNDKGEEKAHVGEPQVTVHIVKTAPLEVKTELPGRTNAYRIAEVRPQVSGIVLNRNFTEGSDVQAGQSLYQIDPATYQANYDSAKGELAKSEAAAAIAHLTVKRYVPLVGTKYISQQEYDQAIADARQADAAVIAAKATVESARINLAYTKVTAPISGRIGKSTVTEGALVTNGQTTELATVQQLDPIYVDVTQSSNDFMRLKQSVEQGNLHK--ENATSNVELVMENGQTYPLKGTLQFSDVTVDESTGSITLRAVFPNPQHTLLPGMFVRARIDEGVQPDAILIPQQGVSRTPRGDATVLIVNDKSQVEARPVVASQAIGDKWLISEGLKSGDQVIVSGLQKARPGEQVK</Hsp_hseq>
+      <Hsp_midline>A   L+P+ +L++ + ++GC  K E       P+V +  ++   + + TELPGRTNA+RIAEVRPQV+GI+L R F EGSDV+AGQ LYQIDPATY+A+Y SA+  LA ++          +RY  LV  + +S+Q+Y  A A   Q+ A        VE ARINL YTKV +PISGRIG+S VTEGALVTNGQ   +ATVQQLDPIYVDVTQ S   +RL++ +  G L +  +NA + V L +E+G  YPL+G L+FS+V+VDE TGS+T+RAVFPNP + LLPGMFV A++ EGV+  AIL PQQGV+R  +G AT L+VN +++VE R + A + IGDKWL++EGL +GD++I  GLQ  +PG +VK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>sp|P37636.1|</Hit_id>
+  <Hit_def>RecName: Full=Multidrug resistance protein MdtE; Flags: Precursor [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P37636</Hit_accession>
+  <Hit_len>385</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>327.405</Hsp_bit-score>
+      <Hsp_score>838</Hsp_score>
+      <Hsp_evalue>7.89742e-109</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>382</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>384</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>257</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>390</Hsp_align-len>
+      <Hsp_qseq>RVLVPALLVAISALSGCG-KSEAPPPAQTPEVGIVTLEAQTVTLNTELPGRTNAFRIAEVRPQVNGIILKRLFKEGSDVKAGQQLYQIDPATYEADYQSAQANLASTQEQAQRYKLLVADQA-------VSKQQY-------ADANAAYLQSKAAVEQARINLRYTKVLSPISGRIGRSAVTEGALVTNGQANAMATVQQLDPIYVDVTQPSTALLRLRRELASGQLERAGDNAAKVSLKLEDGSQYPLEGRLEFSEVSVDEGTGSVTIRAVFPNPNNELLPGMFVHAQLQEGVKQKAILAPQQGVTRDLKGQATALVVNAQNKVELRVIKADRVIGDKWLVTEGLNAGDKIITEGLQFVQPGVEVKTVPAKNVASAQKADAAPAKTDSK</Hsp_qseq>
+      <Hsp_hseq>KLLIP-LLFCGAMLTACDDKSAENAAAMTPEVGVVTLSPGSVNVLSELPGRTVPYEVAEIRPQVGGIIIKRNFIEGDKVNQGDSLYQIDPAPLQAELNSAKGSLAKALSTASNARITFNRQASLLKTNYVSRQDYDTARTQLNEAEANVTVAKAAVEQATINLQYANVTSPITGVSGKSSVTVGALVTANQADSLVTVQRLDPIYVDLTQSVQDFLRMKEEVASGQIKQV-QGSTPVQLNLENGKRYSQTGTLKFSDPTVDETTGSVTLRAIFPNPNGDLLPGMYVTALVDEGSRQNVLLVPQEGVTHNAQGKATALILDKDDVVQLREIEASKAIGDQWVVTSGLQAGDRVIVSGLQRIRPGIK-----ARAISSSQEN----ASTESK</Hsp_hseq>
+      <Hsp_midline>++L+P LL   + L+ C  KS     A TPEVG+VTL   +V + +ELPGRT  + +AE+RPQV GII+KR F EG  V  G  LYQIDPA  +A+  SA+ +LA     A   ++    QA       VS+Q Y        +A A    +KAAVEQA INL+Y  V SPI+G  G+S+VT GALVT  QA+++ TVQ+LDPIYVD+TQ     LR++ E+ASGQ+++    +  V L LE+G +Y   G L+FS+ +VDE TGSVT+RA+FPNPN +LLPGM+V A + EG +Q  +L PQ+GVT + +G+ATAL+++  + V+LR I+A + IGD+W+VT GL AGD++I  GLQ ++PG++     A+ ++S+Q+     A T+SK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>sp|Q8X4L0.1|</Hit_id>
+  <Hit_def>RecName: Full=Multidrug resistance protein MdtE; Flags: Precursor [Escherichia coli O157:H7]</Hit_def>
+  <Hit_accession>Q8X4L0</Hit_accession>
+  <Hit_len>385</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>327.02</Hsp_bit-score>
+      <Hsp_score>837</Hsp_score>
+      <Hsp_evalue>1.08219e-108</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>382</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>384</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>257</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>390</Hsp_align-len>
+      <Hsp_qseq>RVLVPALLVAISALSGCG-KSEAPPPAQTPEVGIVTLEAQTVTLNTELPGRTNAFRIAEVRPQVNGIILKRLFKEGSDVKAGQQLYQIDPATYEADYQSAQANLASTQEQAQRYKLLVADQA-------VSKQQY-------ADANAAYLQSKAAVEQARINLRYTKVLSPISGRIGRSAVTEGALVTNGQANAMATVQQLDPIYVDVTQPSTALLRLRRELASGQLERAGDNAAKVSLKLEDGSQYPLEGRLEFSEVSVDEGTGSVTIRAVFPNPNNELLPGMFVHAQLQEGVKQKAILAPQQGVTRDLKGQATALVVNAQNKVELRVIKADRVIGDKWLVTEGLNAGDKIITEGLQFVQPGVEVKTVPAKNVASAQKADAAPAKTDSK</Hsp_qseq>
+      <Hsp_hseq>KLLIP-LLFCGAMLTACDDKSAENTAAMTPEVGVVTLSPGSVNVLSELPGRTVPYEVAEIRPQVGGIIIKRNFIEGDKVNQGDSLYQIDPAPLQAELNSAKGSLAKALSTASNARITFNRQASLLKTNYVSRQDYDTARTQLNEAEANVTVAKAAVEQATINLQYANVTSPITGVSGKSSVTVGALVTANQADSLVTVQRLDPIYVDLTQSVQDFLRMKEEVASGQIKQV-QGSTPVQLNLENGKRYSQTGTLKFSDPTVDETTGSVTLRAIFPNPNGDLLPGMYVTALVDEGSRQNVLLVPQEGVTHNAQGKATALILDKDDVVKLREIEASKAIGDQWVVTSGLQAGDRVIVSGLQRIRPGIK-----ARAISSSQEN----ASTESK</Hsp_hseq>
+      <Hsp_midline>++L+P LL   + L+ C  KS     A TPEVG+VTL   +V + +ELPGRT  + +AE+RPQV GII+KR F EG  V  G  LYQIDPA  +A+  SA+ +LA     A   ++    QA       VS+Q Y        +A A    +KAAVEQA INL+Y  V SPI+G  G+S+VT GALVT  QA+++ TVQ+LDPIYVD+TQ     LR++ E+ASGQ+++    +  V L LE+G +Y   G L+FS+ +VDE TGSVT+RA+FPNPN +LLPGM+V A + EG +Q  +L PQ+GVT + +G+ATAL+++  + V+LR I+A + IGD+W+VT GL AGD++I  GLQ ++PG++     A+ ++S+Q+     A T+SK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>sp|Q8CVL1.1|</Hit_id>
+  <Hit_def>RecName: Full=Multidrug resistance protein MdtE; Flags: Precursor [Escherichia coli CFT073]</Hit_def>
+  <Hit_accession>Q8CVL1</Hit_accession>
+  <Hit_len>385</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>326.635</Hsp_bit-score>
+      <Hsp_score>836</Hsp_score>
+      <Hsp_evalue>1.4991e-108</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>382</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>384</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>257</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>390</Hsp_align-len>
+      <Hsp_qseq>RVLVPALLVAISALSGCG-KSEAPPPAQTPEVGIVTLEAQTVTLNTELPGRTNAFRIAEVRPQVNGIILKRLFKEGSDVKAGQQLYQIDPATYEADYQSAQANLASTQEQAQRYKLLVADQA-------VSKQQY-------ADANAAYLQSKAAVEQARINLRYTKVLSPISGRIGRSAVTEGALVTNGQANAMATVQQLDPIYVDVTQPSTALLRLRRELASGQLERAGDNAAKVSLKLEDGSQYPLEGRLEFSEVSVDEGTGSVTIRAVFPNPNNELLPGMFVHAQLQEGVKQKAILAPQQGVTRDLKGQATALVVNAQNKVELRVIKADRVIGDKWLVTEGLNAGDKIITEGLQFVQPGVEVKTVPAKNVASAQKADAAPAKTDSK</Hsp_qseq>
+      <Hsp_hseq>KLLIP-LLFCGAMLTACDDKSAENAAAMTPEVGVVTLSPGSVNVLSELPGRTVPYEVAEIRPQVGGIIIKRNFIEGDKVNQGDSLYQIDPAPLQAELNSAKGSLAKALSTASNARITFNRQASLLKTNYVSRQDYDTARTQLNEAEANVTVAKAAVEQATINLQYANVTSPITGVSGKSSVTVGALVTANQADSLVTVQRLDPIYVDLTQSVQDFLRMKEEVASGQIKQV-QGSTPVQLNLENGKRYGQTGTLKFSDPTVDETTGSVTLRAIFPNPNGDLLPGMYVTALVDEGSRQNVLLVPQEGVTHNAQGKATALILDKDDVVQLREIEASKAIGDQWVVTSGLQAGDRVIVSGLQRIRPGIK-----ARAISSSQEN----ASTESK</Hsp_hseq>
+      <Hsp_midline>++L+P LL   + L+ C  KS     A TPEVG+VTL   +V + +ELPGRT  + +AE+RPQV GII+KR F EG  V  G  LYQIDPA  +A+  SA+ +LA     A   ++    QA       VS+Q Y        +A A    +KAAVEQA INL+Y  V SPI+G  G+S+VT GALVT  QA+++ TVQ+LDPIYVD+TQ     LR++ E+ASGQ+++    +  V L LE+G +Y   G L+FS+ +VDE TGSVT+RA+FPNPN +LLPGM+V A + EG +Q  +L PQ+GVT + +G+ATAL+++  + V+LR I+A + IGD+W+VT GL AGD++I  GLQ ++PG++     A+ ++S+Q+     A T+SK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>sp|P43505.1|</Hit_id>
+  <Hit_def>RecName: Full=Membrane fusion protein MtrC; Flags: Precursor [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>P43505</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>275.789</Hsp_bit-score>
+      <Hsp_score>704</Hsp_score>
+      <Hsp_evalue>2.09031e-88</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>376</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>395</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>161</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>381</Hsp_align-len>
+      <Hsp_qseq>SGCGKS------------EAPPPAQTPEVGIVTLEAQTVTLNTELPGRTNAFRIAEVRPQVNGIILKRLFKEGSDVKAGQQLYQIDPATYEADYQSAQANLASTQ-------EQAQRYKLLVADQAVSKQQY-------ADANAAYLQSKAAVEQARINLRYTKVLSPISGRIGRSAVTEGALVTNGQANAMATVQQLDPIYVDVTQPSTALLRLRRELASGQLERAGDNAAKVSLKLEDGSQYPLEGRLEFSEVSVDEGTGSVTIRAVFPNPNNELLPGMFVHAQLQEGVKQKAILAPQQGVTRDLKGQATALVVNAQNKVELRVIKADRVIGDKWLVTEGLNAGDKIITEGLQFVQPGVEVKTVPAKNVASAQKADAAP</Hsp_qseq>
+      <Hsp_hseq>SSCGKGGDAAQGGQPAGREAPAPV----VGVVTVHPQTVALTVELPGRLESLRTADVRAQVGGIIQKRLFQEGSYVRAGQPLYQIDSSTYEAGLESARAQLATAQATLAKADADLARYKPLVSADAISKQEYDAAVTAKRSAEASVKAAQAAIKSAGINLNRSRITAPISGFIGQSKVSEGTLLNAGDTTVLATIRQTNPMYVNVTQSASEVMKLRRQIAEGKL-LAADGAIAVGIKFDDGTVYPEKGRLLFADPTVDESTGQITLRAAVSNDQNILMPGLYVRVLMDQVAADNAFIVPQQAVTRGAKD--TVMIVNAQGGMEPREVTVAQQQGTNWIVTSGLKDGDKVVVEGISIAGMTGAKKVTP-KEWAPSENQAAAP</Hsp_hseq>
+      <Hsp_midline>S CGK             EAP P     VG+VT+  QTV L  ELPGR  + R A+VR QV GII KRLF+EGS V+AGQ LYQID +TYEA  +SA+A LA+ Q           RYK LV+  A+SKQ+Y         A A+   ++AA++ A INL  +++ +PISG IG+S V+EG L+  G    +AT++Q +P+YV+VTQ ++ +++LRR++A G+L  A D A  V +K +DG+ YP +GRL F++ +VDE TG +T+RA   N  N L+PG++V   + +     A + PQQ VTR  K   T ++VNAQ  +E R +   +  G  W+VT GL  GDK++ EG+         K  P K  A ++   AAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>sp|Q8G2M7.1|</Hit_id>
+  <Hit_def>RecName: Full=Efflux pump periplasmic linker BepD; Flags: Precursor [Brucella suis 1330]</Hit_def>
+  <Hit_accession>Q8G2M7</Hit_accession>
+  <Hit_len>397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.185</Hsp_bit-score>
+      <Hsp_score>461</Hsp_score>
+      <Hsp_evalue>2.1342e-52</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>361</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>376</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>344</Hsp_align-len>
+      <Hsp_qseq>EVGIVTLEAQTVTLNTELPGRTNAFRIAEVRPQVNGIILKRLFKEGSDVKAGQQLYQIDPATYEADYQSAQANLASTQ-------EQAQRYKLLVADQ----AVSKQQYADANAAYLQSKAAVEQAR---INLRYTKVLSPISGRIGRSAVTEGALV-TNGQANAMATVQQLDPIYVDVTQPSTALLRLRRELASGQLERA--GDNAAKVSLKL--EDGSQYPLEGRLEFSEVSVDEGTGSVTIRAVFPNPNNELLPGMFVHAQLQEGVKQKAILAPQQGVTRDLKGQATALVVNAQNKVELRVIKADRVIGDKWLVTEGLNAGDKIITEGLQFVQPGVEVKTV</Hsp_qseq>
+      <Hsp_hseq>QVFVVDIKPHDVPVTYEYAARINAYRNVQVRARVGGILLHRNFVEGTQVKAGEVLFEIDPAPYQAELEKAQAQVAQAEAQYQQSIRDAERAEQLVQQKVQSAAVRDSAFATRDLNKAAVAAAKAQLRTAELNLSYTKVTAPISGITSQEQVNEGSLIGTDASSSLLTSVTQLDPVYVNFSFTDTEAA----EIAKLRAERGATGEDADRLKIKILFGDGKAYDHEGTIDFTSSSLDTETGTLGVRAVVENPNHRLIPGQFVRAEILDIQVKDAITVPKAALMQSAQGQFV-YVVNKDNVVEVRPVTGARELKNDWLISQGLNSGDRVITEGVIKAVPGRPVQPV</Hsp_hseq>
+      <Hsp_midline>+V +V ++   V +  E   R NA+R  +VR +V GI+L R F EG+ VKAG+ L++IDPA Y+A+ + AQA +A  +         A+R + LV  +    AV    +A  +       AA  Q R   +NL YTKV +PISG   +  V EG+L+ T+  ++ + +V QLDP+YV+ +   T       E+A  + ER   G++A ++ +K+   DG  Y  EG ++F+  S+D  TG++ +RAV  NPN+ L+PG FV A++ +   + AI  P+  + +  +GQ    VVN  N VE+R +   R + + WL+++GLN+GD++ITEG+    PG  V+ V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>sp|Q8FWV8.1|</Hit_id>
+  <Hit_def>RecName: Full=Efflux pump periplasmic linker BepF [Brucella suis 1330]</Hit_def>
+  <Hit_accession>Q8FWV8</Hit_accession>
+  <Hit_len>411</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.066</Hsp_bit-score>
+      <Hsp_score>388</Hsp_score>
+      <Hsp_evalue>1.10496e-41</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>406</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>180</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>383</Hsp_align-len>
+      <Hsp_qseq>RVLVPALLVAISALSGCGKSEAPPPAQTP----EVGIVTLEAQTVTLNTELPGRTNAFRIAEVRPQVNGIILKRLFKEGSDVKAGQQLYQIDPATYEADYQS-------AQANLASTQEQAQRYKLLVADQAVSKQQYAD-------ANAAYLQSKAAVEQARINLRYTKVLSPISGRIGRSAVTEGALVTNGQANAMATVQQLDPIYVDVTQPSTALLRLRRELASGQLERAGDNAAKVSLKLEDGSQYPLEGRLEFSEVSVDEGTGSVTIRAVFPNPNNELLPGMFVHAQLQEGVKQKAILAPQQGVTRDLKGQATALVVNAQNKVELRVIKADRVIGDKWLVTEGLNAGDKIITEGLQFVQPGVEVKTVPAKNVASAQKA</Hsp_qseq>
+      <Hsp_hseq>RRLRPWFLVLALGLAACSEDKSAPQQAAPLPPIPVGVIKITERPTHPQLSFVGRVEATDSVDLIARVDGFLDKRTFTEGQAVKTGDLLFVLQKDALQAALDAAQANLAKAQADADNLKLQTERARSLYKQKTVSQAMLDDRVAAEKQALAVVQQAQASLEQAQINLGYTDIRAPFSGRIGMANFSVGALV-GPSSGPLATIVSQDPIYVTFPVSDKTIL----DLTEGGRTATDRSNVAVSLTLSNGMTYPQTGAIDFTGIKINPNTDTLMVRAQFPNPNNVLIDGQYVQVTAASKHPVEALLVPQKAIMTDQSGN-YVLAVGEDNKVIQRQITQGSTFGSNVVVKSGLAVGDQVVVDGLQRIRPGQKVDPQIVDATTPAQKA</Hsp_hseq>
+      <Hsp_midline>R L P  LV    L+ C + ++ P    P     VG++ +  +         GR  A    ++  +V+G + KR F EG  VK G  L+ +     +A   +       AQA+  + + Q +R + L   + VS+    D       A A   Q++A++EQA+INL YT + +P SGRIG +  + GALV    +  +AT+   DPIYV        +L    +L  G       +   VSL L +G  YP  G ++F+ + ++  T ++ +RA FPNPNN L+ G +V          +A+L PQ+ +  D  G    L V   NKV  R I      G   +V  GL  GD+++ +GLQ ++PG +V          AQKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>sp|F2EYD8.1|</Hit_id>
+  <Hit_def>RecName: Full=Multidrug resistance protein MdtA; AltName: Full=Multidrug transporter MdtA; Flags: Precursor [Pantoea ananatis AJ13355]</Hit_def>
+  <Hit_accession>F2EYD8</Hit_accession>
+  <Hit_len>410</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>133.65</Hsp_bit-score>
+      <Hsp_score>335</Hsp_score>
+      <Hsp_evalue>3.66585e-34</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>382</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>410</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>343</Hsp_align-len>
+      <Hsp_qseq>GRTNAFRIAEVRPQVNGIILKRLFKEGSDVKAGQQLYQIDPATYEADYQSAQ-------ANLASTQEQAQRYKLLVADQAVSKQQYADANAAYLQS-------KAAVEQARINLRYTKVLSPISGRIGRSAVTEGALVTNGQANAMATVQQLDPIYVDVTQPSTALLRLRRELASGQ--LERAGDNAAKVSLKLEDGSQYPLEGRLEFSEVSVDEGTGSVTIRAVFPNPNNELLPGMFVHAQLQEGVKQKAILAPQQGVTRDLKGQATALVVNAQNKVELRVIKADRVIGDKWLVTEGLNAGDKIITEGLQFVQPGVEVKTVPAKNVASAQKADAAPAKTDSK</Hsp_qseq>
+      <Hsp_hseq>GTVTAANTVTVRSRVDGNLMSIHFTEGQQVKAGQLLAEIDPRPYQVALMQAQGQLARDQATLANARRDLARYQKLAKTSLVSQQDLDTQNALVSETLGTIKADEGSVASAQLNLTYSRITSPIDGRVGLKQVDIGNYITSGDTNGLVVITQTHPVDVVFSVAENNISQIMQAQKSGEPLLVEAWDRSNQ---------HLITRGKLLSLDNQIDATTGTIKIKARFDNQDDLLFPNQFVNARLKVNTLQDAVVIPAAALQMGNEGHFV-WVINNEDKVSKKSVTAGLQDSQKVVISAGLNAGDRVVTDGLDRLTEGAKVEVVAAQSRATKETRASLPSKGESE</Hsp_hseq>
+      <Hsp_midline>G   A     VR +V+G ++   F EG  VKAGQ L +IDP  Y+     AQ       A LA+ +    RY+ L     VS+Q     NA   ++       + +V  A++NL Y+++ SPI GR+G   V  G  +T+G  N +  + Q  P+ V  +     + ++ +   SG+  L  A D + +              G+L   +  +D  TG++ I+A F N ++ L P  FV+A+L+    Q A++ P   +    +G     V+N ++KV  + + A      K +++ GLNAGD+++T+GL  +  G +V+ V A++ A+ +   + P+K +S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>sp|C6DBC6.1|</Hit_id>
+  <Hit_def>RecName: Full=Multidrug resistance protein MdtA; AltName: Full=Multidrug transporter MdtA; Flags: Precursor [Pectobacterium carotovorum subsp. carotovorum PC1]</Hit_def>
+  <Hit_accession>C6DBC6</Hit_accession>
+  <Hit_len>413</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.568</Hsp_bit-score>
+      <Hsp_score>327</Hsp_score>
+      <Hsp_evalue>5.11252e-33</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>399</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>51</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>RTPAMRVLVPALLVAISALSGCGKSEAPPPAQTPEVGIVTLEAQTVTLNTELPGRTNAFRIAEVRPQVNGIILKRLFKEGSDVKAGQQLYQIDPATYEADYQSAQ-------ANLASTQEQAQRYKLLVADQAVSKQQYADANAAYLQSKA-------AVEQARINLRYTKVLSPISGRIGRSAVTEGALVTNGQANAMATVQQLDPIYVDVTQPSTALLRLRRELASGQ--LERAGDNAAKVSLKLEDGSQYPLEGRLEFSEVSVDEGTGSVTIRAVFPNPNNELLPGMFVHAQLQEGVKQKAILAPQQGVTRDLKGQATALVVNAQNKVELRVIKADRVIGDKWLVTEGLNAGDKIITEGLQFVQPGVEVKTVPA</Hsp_qseq>
+      <Hsp_hseq>RRAAMRTLAP--------VQAAVTQSASVPYYLSGLGTVT-SANTVTL----------------RSRVNGQLMALHFQEGQQVKAGDLLAEIDPRPFQVELTQAQGQLAKDRAVLANAQQDLARYQQLVKTNLISRQELDAQTAAVRQAEGTLKADEGAVASAQLQLDYSKITAPISGRIGLKQVDVGNYITSGDTNGIVVITQTYPIDVVFTVPEAEISTILNAQKSGQPPMVEAWDRANQKKLS---------QGTLLSMDNQIDATTGTIKLKARFDNLDDALFPNQFVNIRMKVDTLKNAVVAPSAAVQMGNEGRFV-WILNDKNEVSKRQVTTSIQYGQLVVVTAGLDADVKVVTDGIDRLTEGAKVEVVPS</Hsp_hseq>
+      <Hsp_midline>R  AMR L P        +       A  P     +G VT  A TVTL                R +VNG ++   F+EG  VKAG  L +IDP  ++ +   AQ       A LA+ Q+   RY+ LV    +S+Q+     AA  Q++        AV  A++ L Y+K+ +PISGRIG   V  G  +T+G  N +  + Q  PI V  T P   +  +     SGQ  +  A D A +  L          +G L   +  +D  TG++ ++A F N ++ L P  FV+ +++    + A++AP   V    +G+    ++N +N+V  R +      G   +VT GL+A  K++T+G+  +  G +V+ VP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>sp|Q6D2B2.1|</Hit_id>
+  <Hit_def>RecName: Full=Multidrug resistance protein MdtA; AltName: Full=Multidrug transporter MdtA; Flags: Precursor [Pectobacterium atrosepticum SCRI1043]</Hit_def>
+  <Hit_accession>Q6D2B2</Hit_accession>
+  <Hit_len>411</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.946</Hsp_bit-score>
+      <Hsp_score>315</Hsp_score>
+      <Hsp_evalue>2.86946e-31</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>84</Hsp_hit-from>
+      <Hsp_hit-to>397</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>324</Hsp_align-len>
+      <Hsp_qseq>GRTNAFRIAEVRPQVNGIILKRLFKEGSDVKAGQQLYQIDPATYEADYQSAQANLA-------STQEQAQRYKLLVADQAVSKQQYADANAAYLQSKAA-------VEQARINLRYTKVLSPISGRIGRSAVTEGALVTNGQANAMATVQQLDPIYVDVTQPSTALLRLRRELASGQ--LERAGDNAAKVSLKLEDGSQYPLEGRLEFSEVSVDEGTGSVTIRAVFPNPNNELLPGMFVHAQLQEGVKQKAILAPQQGVTRDLKGQATALVVNAQNKVELRVIKADRVIGDKWLVTEGLNAGDKIITEGLQFVQPGVEVKTVPA</Hsp_qseq>
+      <Hsp_hseq>GTVTAANTVTLRSRVNGQLMALHFQEGQQVKVGDLLAEIDPRPFQVELTQAQGQLAKDQAALLNTRQDLARYQQLVKTNLISRQELDTQTAAVRQAEGALKADEGAVASAQLQLDYSKITAPISGRIGLKQVDVGNYITSGDTNGIVVITQTYPIDVVFTVPEAEISTILNAQKSGQPPVVEAWDRANQKKLS---------QGILLSMDNQIDTTTGTIKLKARFDNLDDALFPNQFVNIRMKVDTLKNAVVAPSAAVQMGNDGRF-VWILNNKNEVSKRQVTTSIQYGQLVVVTAGLDADVQVVTDGIDRLTEGAKVEIVPS</Hsp_hseq>
+      <Hsp_midline>G   A     +R +VNG ++   F+EG  VK G  L +IDP  ++ +   AQ  LA       +T++   RY+ LV    +S+Q+     AA  Q++ A       V  A++ L Y+K+ +PISGRIG   V  G  +T+G  N +  + Q  PI V  T P   +  +     SGQ  +  A D A +  L          +G L   +  +D  TG++ ++A F N ++ L P  FV+ +++    + A++AP   V     G+    ++N +N+V  R +      G   +VT GL+A  +++T+G+  +  G +V+ VP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>sp|A6TBH3.1|</Hit_id>
+  <Hit_def>RecName: Full=Multidrug resistance protein MdtA; AltName: Full=Multidrug transporter MdtA; Flags: Precursor [Klebsiella pneumoniae subsp. pneumoniae MGH 78578]</Hit_def>
+  <Hit_accession>A6TBH3</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.25</Hsp_bit-score>
+      <Hsp_score>308</Hsp_score>
+      <Hsp_evalue>2.45016e-30</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>383</Hsp_query-to>
+      <Hsp_hit-from>79</Hsp_hit-from>
+      <Hsp_hit-to>409</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>342</Hsp_align-len>
+      <Hsp_qseq>GRTNAFRIAEVRPQVNGIILKRLFKEGSDVKAGQQLYQIDPATYEADYQSA-------QANLASTQEQAQRYKLLVADQAVSKQQYADANAAYLQS-------KAAVEQARINLRYTKVLSPISGRIGRSAVTEGALVTNGQANAMATVQQLDPIYVDVTQPSTALLRLRRELASGQLERAGDNAAKVSLKLEDGSQYPLEGRLEFSEVSVDEGTGSVTIRAVFPNPNNELLPGMFVHAQLQEGVKQKAILAPQQGVTRDLKGQATALVVNAQNKVELRVIKADRVIGDKWLVTEGLNAGDKIITEGLQFVQPGVEVKTVPAKNVASAQKADAAPAKTDSKG</Hsp_qseq>
+      <Hsp_hseq>GTVTAANTVTVRSRVDGQLLSLHFQEGQQVKAGDLLAQIDPSQFKVALAQAQGQLAKDQATLANARRDLARYQQLVKTNLVSRQELDTQQSLVVESAGTVKADEAAVASAQLQLDWTRITAPIDGRVGLKQVDIGNQISSGDTTGIVVLTQTHPIDVVFTLPESSIATVV------QAQKAG-KALSVEAWDRTNKQKISVGELLSLDNQIDATTGTIKLKARFSNLDDALFPNQFVNARLLVDTQQNAVVIPAAALQMGNEGHFV-WVLNDENKVSKHSVTPGIQDSQKVVISAGLSAGDRVVTDGIDRLTEGAKVEVVTA---SSGEQAQPAPRQSGKHG</Hsp_hseq>
+      <Hsp_midline>G   A     VR +V+G +L   F+EG  VKAG  L QIDP+ ++     A       QA LA+ +    RY+ LV    VS+Q+     +  ++S       +AAV  A++ L +T++ +PI GR+G   V  G  +++G    +  + Q  PI V  T P +++  +       Q ++AG  A  V        Q    G L   +  +D  TG++ ++A F N ++ L P  FV+A+L    +Q A++ P   +    +G     V+N +NKV    +        K +++ GL+AGD+++T+G+  +  G +V+ V A   +S ++A  AP ++   G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>sp|A4WCC0.1|</Hit_id>
+  <Hit_def>RecName: Full=Multidrug resistance protein MdtA; AltName: Full=Multidrug transporter MdtA; Flags: Precursor [Enterobacter sp. 638]</Hit_def>
+  <Hit_accession>A4WCC0</Hit_accession>
+  <Hit_len>411</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.25</Hsp_bit-score>
+      <Hsp_score>308</Hsp_score>
+      <Hsp_evalue>3.10343e-30</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>369</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>395</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>330</Hsp_align-len>
+      <Hsp_qseq>GRTNAFRIAEVRPQVNGIILKRLFKEGSDVKAGQQLYQIDPATYEADYQSAQ-------ANLASTQEQAQRYKLLVADQAVSKQQY-------ADANAAYLQSKAAVEQARINLRYTKVLSPISGRIGRSAVTEGALVTNGQANAMATVQQLDPIYVDVTQPSTALLRLRRELASGQ--LERAGDNAAKVSLKLEDGSQYPLEGRLEFSEVSVDEGTGSVTIRAVFPNPNNELLPGMFVHAQLQEGVKQKAILAPQQGVTRDLKGQATALVVNAQNKVELRVIKADRVIGDKWLVTEGLNAGDKIITEGLQFVQPGVEVKTVPAKNVASA</Hsp_qseq>
+      <Hsp_hseq>GTVTAANTVTVRSRVDGQLMAIHFQEGQQVKAGDLLAEIDPSQFKVALAQAQGQLAKDKATLANARRDLARYQQLVKTNLVSRQELDTQQSLVSEAQGTIKTDEAAVASAQLQLDWSRITAPIDGRVGLKQVDIGNQISSGDTTGIVVITQTHPIDLVFTLPENEIATVVQAQKTGQPLAVEAWDRTNKA--KLSDGTLLSLDNQ-------IDATTGTIKVKARFNNQDDALFPNQFVNARMLVATEENAVVIPTAALQMGNEGNFV-WVLNSDNKVSKHLVKPGIQDSQTVVISAGLSAGDRVVTDGIDRLTEGAKVEVVDAHSATTA</Hsp_hseq>
+      <Hsp_midline>G   A     VR +V+G ++   F+EG  VKAG  L +IDP+ ++     AQ       A LA+ +    RY+ LV    VS+Q+        ++A       +AAV  A++ L ++++ +PI GR+G   V  G  +++G    +  + Q  PI +  T P   +  + +   +GQ     A D   K   KL DG+   L+ +       +D  TG++ ++A F N ++ L P  FV+A++    ++ A++ P   +    +G     V+N+ NKV   ++K         +++ GL+AGD+++T+G+  +  G +V+ V A +  +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>sp|D4I6V2.1|</Hit_id>
+  <Hit_def>RecName: Full=Multidrug resistance protein MdtA; AltName: Full=Multidrug transporter MdtA; Flags: Precursor [Erwinia amylovora ATCC 49946]</Hit_def>
+  <Hit_accession>D4I6V2</Hit_accession>
+  <Hit_len>405</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.783</Hsp_bit-score>
+      <Hsp_score>299</Hsp_score>
+      <Hsp_evalue>4.94095e-29</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>364</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>393</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>324</Hsp_align-len>
+      <Hsp_qseq>GRTNAFRIAEVRPQVNGIILKRLFKEGSDVKAGQQLYQIDPATYEADYQSAQ-------ANLASTQEQAQRYKLLVADQAVSKQQYADANAAYLQS-------KAAVEQARINLRYTKVLSPISGRIGRSAVTEGALVTNGQANAMATVQQLDPIYVDVTQPSTALLRLRRELASGQLE-RAGDNAAKVSLKLEDGSQYPLEGRLEFSEVSVDEGTGSVTIRAVFPNPNNELLPGMFVHAQLQEGVKQKAILAPQQGVTRDLKGQATALVVNAQNKVELRVIKADRVIGDKWLVTEGLNAGDKIITEGLQFVQPGVEVKTVPAK</Hsp_qseq>
+      <Hsp_hseq>GTVTAANTVTLRSRVDGDLVALHFNEGQEVAAGQLLAEIDPRPYEVALMQAEGQLAKDRATLTNARRDLARYEKLAQTQLVSAQELDTQRARVSETLGTIKADEGSVASARLNLTYSRVTAPIAGRVGLKQVDVGNYVSSGDANGIVVIAQTHPIDLVFSLPESDIASVLSAQKNGKLPVEAWDRNNKNLLT---------RGTLLSMDNQIDSTTGTVKLKARFDNQDDRLFPNQFVNARLKIGTLEDAIVIPAAALQMGNESH-FVWVINGDSTVSKKIVASGLQGSGQVVISAGLQAGEKVVTDGIDRLTDGAQTEIVPAQ</Hsp_hseq>
+      <Hsp_midline>G   A     +R +V+G ++   F EG +V AGQ L +IDP  YE     A+       A L + +    RY+ L   Q VS Q+     A   ++       + +V  AR+NL Y++V +PI+GR+G   V  G  V++G AN +  + Q  PI +  + P + +  +     +G+L   A D   K  L           G L   +  +D  TG+V ++A F N ++ L P  FV+A+L+ G  + AI+ P   +    +      V+N  + V  +++ +      + +++ GL AG+K++T+G+  +  G + + VPA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>sp|C5BHN6.1|</Hit_id>
+  <Hit_def>RecName: Full=Multidrug resistance protein MdtA; AltName: Full=Multidrug transporter MdtA; Flags: Precursor [Edwardsiella ictaluri 93-146]</Hit_def>
+  <Hit_accession>C5BHN6</Hit_accession>
+  <Hit_len>408</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.627</Hsp_bit-score>
+      <Hsp_score>296</Hsp_score>
+      <Hsp_evalue>1.16737e-28</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>369</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>399</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>330</Hsp_align-len>
+      <Hsp_qseq>GRTNAFRIAEVRPQVNGIILKRLFKEGSDVKAGQQLYQIDPATYEADYQSAQANLA-------STQEQAQRYKLLVADQAVSKQQY-------ADANAAYLQSKAAVEQARINLRYTKVLSPISGRIGRSAVTEGALVTNGQANAMATVQQLDPIYVDVTQPSTALLRLRRELAS-GQL-ERAGDNAAKVSLKLEDGSQYPLEGRLEFSEVSVDEGTGSVTIRAVFPNPNNELLPGMFVHAQLQEGVKQKAILAPQQGVTRDLKGQATALVVNAQNKVELRVIKADRVIGDKWLVTEGLNAGDKIITEGLQFVQPGVEVKTVPAKNVASA</Hsp_qseq>
+      <Hsp_hseq>GTVTASNTVTVRSRVDGQLMKLHFSEGEQVKAGDLLAEIDPRPFLIQLQQAQGALARDTALLDNARRDLARYQRLAKDNLVSRQELDTQASLVTQTQASLVSDRANVDNAQLQLDYSRIRAPGDGRAGLRQVDEGNYISSADTNGLVVLTQTHPIDVLFTLPEGDIPRLQQALQHQGTLVAEAWDRSDRQRLA---------TGHLLSLDNQIDTATGTLKIKARFENQDDRLFPNQFVNLRLQVASQMPVLLIPAAAVQTGREGRFV-WVVDAGNRVHKRSLSVGARDGESLVVLQGVDEGEKVVTDGIDRLTEDARVDIIAARRPGAA</Hsp_hseq>
+      <Hsp_midline>G   A     VR +V+G ++K  F EG  VKAG  L +IDP  +    Q AQ  LA       + +    RY+ L  D  VS+Q+            A+ +  +A V+ A++ L Y+++ +P  GR G   V EG  +++   N +  + Q  PI V  T P   + RL++ L   G L   A D + +  L           G L   +  +D  TG++ I+A F N ++ L P  FV+ +LQ   +   +L P   V    +G+    VV+A N+V  R +      G+  +V +G++ G+K++T+G+  +     V  + A+   +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>sp|C9XVZ5.2|</Hit_id>
+  <Hit_def>RecName: Full=Multidrug resistance protein MdtA; AltName: Full=Multidrug transporter MdtA; Flags: Precursor [Cronobacter turicensis z3032]</Hit_def>
+  <Hit_accession>C9XVZ5</Hit_accession>
+  <Hit_len>415</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.472</Hsp_bit-score>
+      <Hsp_score>293</Hsp_score>
+      <Hsp_evalue>3.56982e-28</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>371</Hsp_query-to>
+      <Hsp_hit-from>74</Hsp_hit-from>
+      <Hsp_hit-to>395</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>GRTNAFRIAEVRPQVNGIILKRLFKEGSDVKAGQQLYQIDPATYEADYQSAQ-------ANLASTQEQAQRYKLLVADQAVSKQQYADANAAYLQ--------SKAAVEQARINLRYTKVLSPISGRIGRSAVTEGALVTNGQANAMATVQQLDPIYVDVTQPSTALLRLRRELASGQ--LERAGDNAAKVSLKLEDGSQYPLEGRLEFSEVSVDEGTGSVTIRAVFPNPNNELLPGMFVHAQLQEGVKQKAILAPQQGVTRDLKGQATALVVNAQNKVELRVIKADRVIGDKWLVTEGLNAGDKIITEGLQFVQPGVEVKTVPAKNVASAQK</Hsp_qseq>
+      <Hsp_hseq>GTITAANTVTVRSRVDGQLMAIHFKEGQQVKAGDLLAEIDPSQFKVALAQAQGQLAKDRATLANARRDLARYQQLGKTNLVSRQEL-DAQQALVSESEGTLKADEAAVASAQLQLDWSRITAPIDGRVGLKQVDIGNQISSGDTTGIVVLTQTHPIDLVFTLPESDIAAVMQAQKAGKPLTVEAWDRTN--STKLSTGELLSLDNQ-------IDATTGTIKLKARFANEDDALFPNQFVNARMLIDTQQNAVVIPTAALQMGNEGHFV-WVLNDDNKVSKHTVTTGIQNSESVVITAGLSAGDRVVTDGIDRLTEGAKVDVVEAQTAADAAK</Hsp_hseq>
+      <Hsp_midline>G   A     VR +V+G ++   FKEG  VKAG  L +IDP+ ++     AQ       A LA+ +    RY+ L     VS+Q+  DA  A +          +AAV  A++ L ++++ +PI GR+G   V  G  +++G    +  + Q  PI +  T P + +  + +   +G+     A D     S KL  G    L+ +       +D  TG++ ++A F N ++ L P  FV+A++    +Q A++ P   +    +G     V+N  NKV    +       +  ++T GL+AGD+++T+G+  +  G +V  V A+  A A K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>sp|B7NCB0.1|</Hit_id>
+  <Hit_def>RecName: Full=Multidrug resistance protein MdtA; AltName: Full=Multidrug transporter MdtA; Flags: Precursor [Escherichia coli UMN026]</Hit_def>
+  <Hit_accession>B7NCB0</Hit_accession>
+  <Hit_len>415</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.316</Hsp_bit-score>
+      <Hsp_score>290</Hsp_score>
+      <Hsp_evalue>8.38112e-28</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>371</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>401</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>GRTNAFRIAEVRPQVNGIILKRLFKEGSDVKAGQQLYQIDPATYEADYQSAQ-------ANLASTQEQAQRYKLLVADQAVSKQQYADANAAYLQ--------SKAAVEQARINLRYTKVLSPISGRIGRSAVTEGALVTNGQANAMATVQQLDPIYVDVTQPSTALLRLRRELASGQ--LERAGDNAAKVSLKLEDGSQYPLEGRLEFSEVSVDEGTGSVTIRAVFPNPNNELLPGMFVHAQLQEGVKQKAILAPQQGVTRDLKGQATALVVNAQNKVELRVIKADRVIGDKWLVTEGLNAGDKIITEGLQFVQPGVEVKTVPAKNVASAQK</Hsp_qseq>
+      <Hsp_hseq>GTITAANTVTVRSRVDGQLIALHFQEGQQVKAGDLLAEIDPSQFKVALAQAQGQLAKDKATLANARRDLARYQQLVKTNLVSRQEL-DAQQALVSETEGTIKADEASVASAQLQLDWSRITAPVDGRVGLKQVDVGNQISSGDTTGIVVITQTHPIDLVFTLPESDIATVVQAQKAGKPLVVEAWDRTN--SKKLSEGTLLSLDNQ-------IDATTGTIKVKARFNNQDDALFPNQFVNARMLVDTEQNAVVIPTAALQMGNEGHFV-WVLNSENKVSKHLVTPGIQDSQKVVIRAGISAGDRVVTDGIDRLTEGAKVEVVEAQSATTSEE</Hsp_hseq>
+      <Hsp_midline>G   A     VR +V+G ++   F+EG  VKAG  L +IDP+ ++     AQ       A LA+ +    RY+ LV    VS+Q+  DA  A +          +A+V  A++ L ++++ +P+ GR+G   V  G  +++G    +  + Q  PI +  T P + +  + +   +G+  +  A D     S KL +G+   L+ +       +D  TG++ ++A F N ++ L P  FV+A++    +Q A++ P   +    +G     V+N++NKV   ++        K ++  G++AGD+++T+G+  +  G +V+ V A++  ++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>sp|B7NQB2.1|</Hit_id>
+  <Hit_def>RecName: Full=Multidrug resistance protein MdtA; AltName: Full=Multidrug transporter MdtA; Flags: Precursor [Escherichia coli IAI39]</Hit_def>
+  <Hit_accession>B7NQB2</Hit_accession>
+  <Hit_len>415</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.316</Hsp_bit-score>
+      <Hsp_score>290</Hsp_score>
+      <Hsp_evalue>8.63418e-28</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>371</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>401</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>GRTNAFRIAEVRPQVNGIILKRLFKEGSDVKAGQQLYQIDPATYEADYQSAQ-------ANLASTQEQAQRYKLLVADQAVSKQQYADANAAYLQ--------SKAAVEQARINLRYTKVLSPISGRIGRSAVTEGALVTNGQANAMATVQQLDPIYVDVTQPSTALLRLRRELASGQ--LERAGDNAAKVSLKLEDGSQYPLEGRLEFSEVSVDEGTGSVTIRAVFPNPNNELLPGMFVHAQLQEGVKQKAILAPQQGVTRDLKGQATALVVNAQNKVELRVIKADRVIGDKWLVTEGLNAGDKIITEGLQFVQPGVEVKTVPAKNVASAQK</Hsp_qseq>
+      <Hsp_hseq>GTITAANTVTVRSRVDGQLMALHFQEGQQVKAGDLLAEIDPSQFKVALAQAQGQLAKDKATLANARRDLARYQQLVKTNLVSRQEL-DAQQALVSETEGTIKADEASVASAQLQLDWSRITAPVDGRVGLKQVDVGNQISSGDTTGIVVITQTHPIDLLFTLPESDIATVVQAQKAGKPLVVEAWDRTN--SKKLSEGTLLSLDNQ-------IDATTGTIKVKARFNNQDDALFPNQFVNARMLVDTEQNAVVIPTAALQMGNEGHFV-WVLNSENKVSKHLVTPGIQDSQKVVIRAGISAGDRVVTDGIDRLTEGAKVEVVEAQSATTSEE</Hsp_hseq>
+      <Hsp_midline>G   A     VR +V+G ++   F+EG  VKAG  L +IDP+ ++     AQ       A LA+ +    RY+ LV    VS+Q+  DA  A +          +A+V  A++ L ++++ +P+ GR+G   V  G  +++G    +  + Q  PI +  T P + +  + +   +G+  +  A D     S KL +G+   L+ +       +D  TG++ ++A F N ++ L P  FV+A++    +Q A++ P   +    +G     V+N++NKV   ++        K ++  G++AGD+++T+G+  +  G +V+ V A++  ++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>sp|A7ZNP7.1|</Hit_id>
+  <Hit_def>RecName: Full=Multidrug resistance protein MdtA; AltName: Full=Multidrug transporter MdtA; Flags: Precursor [Escherichia coli O139:H28 str. E24377A]</Hit_def>
+  <Hit_accession>A7ZNP7</Hit_accession>
+  <Hit_len>415</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.161</Hsp_bit-score>
+      <Hsp_score>287</Hsp_score>
+      <Hsp_evalue>2.37142e-27</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>371</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>401</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>GRTNAFRIAEVRPQVNGIILKRLFKEGSDVKAGQQLYQIDPATYEADYQSAQ-------ANLASTQEQAQRYKLLVADQAVSKQQYADANAAYLQ--------SKAAVEQARINLRYTKVLSPISGRIGRSAVTEGALVTNGQANAMATVQQLDPIYVDVTQPSTALLRLRRELASGQ--LERAGDNAAKVSLKLEDGSQYPLEGRLEFSEVSVDEGTGSVTIRAVFPNPNNELLPGMFVHAQLQEGVKQKAILAPQQGVTRDLKGQATALVVNAQNKVELRVIKADRVIGDKWLVTEGLNAGDKIITEGLQFVQPGVEVKTVPAKNVASAQK</Hsp_qseq>
+      <Hsp_hseq>GTITAANTVTVRSRVDGQLMALHFQEGQQVKAGDLLAEIDPSQFKVALAQAQGQLAKDKATLANARRDLARYQQLAKTNLVSRQEL-DAQQALVSETEGTIKADEASVASAQLQLDWSRITAPVDGRVGLKQVDVGNQISSGDTTGIVVITQTHPIDLVFTLPESDIATVVQAQKAGKPLVVEAWDRTN--SKKLSEGTLLSLDNQ-------IDATTGTIKVKARFNNQDDALFPNQFVNARMLVDTEQNAVVIPTAALQMGNEGHFV-WVLNSENKVSKHLVTPGIQDSQKVVIRAGISAGDRVVTDGIDRLTEGAKVEVVEAQSTTTSEE</Hsp_hseq>
+      <Hsp_midline>G   A     VR +V+G ++   F+EG  VKAG  L +IDP+ ++     AQ       A LA+ +    RY+ L     VS+Q+  DA  A +          +A+V  A++ L ++++ +P+ GR+G   V  G  +++G    +  + Q  PI +  T P + +  + +   +G+  +  A D     S KL +G+   L+ +       +D  TG++ ++A F N ++ L P  FV+A++    +Q A++ P   +    +G     V+N++NKV   ++        K ++  G++AGD+++T+G+  +  G +V+ V A++  ++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>sp|B7LV38.1|</Hit_id>
+  <Hit_def>RecName: Full=Multidrug resistance protein MdtA; AltName: Full=Multidrug transporter MdtA; Flags: Precursor [Escherichia fergusonii ATCC 35469]</Hit_def>
+  <Hit_accession>B7LV38</Hit_accession>
+  <Hit_len>415</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.775</Hsp_bit-score>
+      <Hsp_score>286</Hsp_score>
+      <Hsp_evalue>2.69693e-27</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>398</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>329</Hsp_align-len>
+      <Hsp_qseq>GRTNAFRIAEVRPQVNGIILKRLFKEGSDVKAGQQLYQIDPATYEADYQSAQ-------ANLASTQEQAQRYKLLVADQAVSKQQY-------ADANAAYLQSKAAVEQARINLRYTKVLSPISGRIGRSAVTEGALVTNGQANAMATVQQLDPIYVDVTQPSTALLRLRRELASGQ--LERAGDNAAKVSLKLEDGSQYPLEGRLEFSEVSVDEGTGSVTIRAVFPNPNNELLPGMFVHAQLQEGVKQKAILAPQQGVTRDLKGQATALVVNAQNKVELRVIKADRVIGDKWLVTEGLNAGDKIITEGLQFVQPGVEVKTVPAKNVAS</Hsp_qseq>
+      <Hsp_hseq>GTITAANTVTVRSRVDGQLMALHFQEGQQVKAGDLLAEIDPSQFKVALAQAQGQLAKDKATLANARRDLARYQQLAKTNLVSRQELDAQQALVSETEGTFKADEASVASAQLQLDWSRITAPVDGRVGLKQVDVGNQISSGDTTGIVVITQTHPIDLLFTLPESDITTVVQAQKAGKPLVVEAWDRTN--SKKLSEGTLLSLDNQ-------IDATTGTIKVKARFNNQDDALFPNQFVNARMLVDTEQNAVVIPTAALQMGNEGHFV-WVLNSENKVSKHLVTPGIQDSQKVVIRAGISAGDRVVTDGIDRLTEGAKVEVVEAQSATT</Hsp_hseq>
+      <Hsp_midline>G   A     VR +V+G ++   F+EG  VKAG  L +IDP+ ++     AQ       A LA+ +    RY+ L     VS+Q+        ++    +   +A+V  A++ L ++++ +P+ GR+G   V  G  +++G    +  + Q  PI +  T P + +  + +   +G+  +  A D     S KL +G+   L+ +       +D  TG++ ++A F N ++ L P  FV+A++    +Q A++ P   +    +G     V+N++NKV   ++        K ++  G++AGD+++T+G+  +  G +V+ V A++  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>sp|Q83KI5.1|</Hit_id>
+  <Hit_def>RecName: Full=Putative multidrug resistance protein MdtA; AltName: Full=Multidrug transporter MdtA [Shigella flexneri]</Hit_def>
+  <Hit_accession>Q83KI5</Hit_accession>
+  <Hit_len>350</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.62</Hsp_bit-score>
+      <Hsp_score>283</Hsp_score>
+      <Hsp_evalue>3.45343e-27</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>330</Hsp_align-len>
+      <Hsp_qseq>GRTNAFRIAEVRPQVNGIILKRLFKEGSDVKAGQQLYQIDPATYEADYQSAQ-------ANLASTQEQAQRYKLLVADQAVSKQQYADANAAYLQ--------SKAAVEQARINLRYTKVLSPISGRIGRSAVTEGALVTNGQANAMATVQQLDPIYVDVTQPSTALLRLRRELASGQ--LERAGDNAAKVSLKLEDGSQYPLEGRLEFSEVSVDEGTGSVTIRAVFPNPNNELLPGMFVHAQLQEGVKQKAILAPQQGVTRDLKGQATALVVNAQNKVELRVIKADRVIGDKWLVTEGLNAGDKIITEGLQFVQPGVEVKTVPAKNVAS</Hsp_qseq>
+      <Hsp_hseq>GTITAANTVTVRSRVDGQLMALHFQEGQQVKAGDLLAEIDPSQFKVALAQTQGQLAKDKATLANARRDLARYQQLAKTNLVSRQEL-DAQQALVSETEGTIKADEASVASAQLQLDWSRITAPVDGRVGLKQVDVGNQISSGDTTGIVVITQTHPIDLVFTLPESDIATVVQAQKAGKPLMVEAWDRTN--SKKLSEGTLLSLDNQ-------IDATTGTIKVKARFNNQDDALFPNQFVNARMLVDTEQNAVVIPTAALQMGNEGHF-VWVLNSENKVSKHLVTPGIQDSQKVVIRAGISAGDRVVTDGIDRLTEGAKVEVVEAQSATT</Hsp_hseq>
+      <Hsp_midline>G   A     VR +V+G ++   F+EG  VKAG  L +IDP+ ++      Q       A LA+ +    RY+ L     VS+Q+  DA  A +          +A+V  A++ L ++++ +P+ GR+G   V  G  +++G    +  + Q  PI +  T P + +  + +   +G+  +  A D     S KL +G+   L+ +       +D  TG++ ++A F N ++ L P  FV+A++    +Q A++ P   +    +G     V+N++NKV   ++        K ++  G++AGD+++T+G+  +  G +V+ V A++  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>sp|B7ME86.1|</Hit_id>
+  <Hit_def>RecName: Full=Multidrug resistance protein MdtA; AltName: Full=Multidrug transporter MdtA; Flags: Precursor [Escherichia coli S88]</Hit_def>
+  <Hit_accession>B7ME86</Hit_accession>
+  <Hit_len>415</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.39</Hsp_bit-score>
+      <Hsp_score>285</Hsp_score>
+      <Hsp_evalue>3.81234e-27</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>398</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>330</Hsp_align-len>
+      <Hsp_qseq>GRTNAFRIAEVRPQVNGIILKRLFKEGSDVKAGQQLYQIDPATYEADYQSAQ-------ANLASTQEQAQRYKLLVADQAVSKQQYADANAAYLQ--------SKAAVEQARINLRYTKVLSPISGRIGRSAVTEGALVTNGQANAMATVQQLDPIYVDVTQPSTALLRLRRELASGQ--LERAGDNAAKVSLKLEDGSQYPLEGRLEFSEVSVDEGTGSVTIRAVFPNPNNELLPGMFVHAQLQEGVKQKAILAPQQGVTRDLKGQATALVVNAQNKVELRVIKADRVIGDKWLVTEGLNAGDKIITEGLQFVQPGVEVKTVPAKNVAS</Hsp_qseq>
+      <Hsp_hseq>GTITAANTVTVRSRVDGQLMALHFQEGQQVKAGDLLAEIDPSQFKVALAQAQGQLAKDKATLANARRDLSRYQQLAKTNLVSRQEL-DAQQALVSETEGTIKADEASVASAQLQLDWSRITAPVDGRVGLKQVDVGNQISSGDTTGIVVITQTHPIDLVFTLPESDIATVVQAQKAGKPLVVEAWDRTN--SKKLSEGTLLSLDNQ-------IDATTGTIKVKARFNNQDDALFPNQFVNARMLVDTEQNAVVIPTAALQMGNEGHFV-WVLNSENKVSKHLVTPGIQDSQKVVIRAGISAGDRVVTDGIDRLTEGAKVEVVEAQSTTT</Hsp_hseq>
+      <Hsp_midline>G   A     VR +V+G ++   F+EG  VKAG  L +IDP+ ++     AQ       A LA+ +    RY+ L     VS+Q+  DA  A +          +A+V  A++ L ++++ +P+ GR+G   V  G  +++G    +  + Q  PI +  T P + +  + +   +G+  +  A D     S KL +G+   L+ +       +D  TG++ ++A F N ++ L P  FV+A++    +Q A++ P   +    +G     V+N++NKV   ++        K ++  G++AGD+++T+G+  +  G +V+ V A++  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>sp|B1LNW7.1|</Hit_id>
+  <Hit_def>RecName: Full=Multidrug resistance protein MdtA; AltName: Full=Multidrug transporter MdtA; Flags: Precursor [Escherichia coli SMS-3-5]</Hit_def>
+  <Hit_accession>B1LNW7</Hit_accession>
+  <Hit_len>415</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.39</Hsp_bit-score>
+      <Hsp_score>285</Hsp_score>
+      <Hsp_evalue>4.59993e-27</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>371</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>401</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>GRTNAFRIAEVRPQVNGIILKRLFKEGSDVKAGQQLYQIDPATYEADYQSA-------QANLASTQEQAQRYKLLVADQAVSKQQYADANAAYLQ--------SKAAVEQARINLRYTKVLSPISGRIGRSAVTEGALVTNGQANAMATVQQLDPIYVDVTQPSTALLRLRRELASGQ--LERAGDNAAKVSLKLEDGSQYPLEGRLEFSEVSVDEGTGSVTIRAVFPNPNNELLPGMFVHAQLQEGVKQKAILAPQQGVTRDLKGQATALVVNAQNKVELRVIKADRVIGDKWLVTEGLNAGDKIITEGLQFVQPGVEVKTVPAKNVASAQK</Hsp_qseq>
+      <Hsp_hseq>GTITAANTVTVRSRVDGQLMALHFQEGQQVKAGDLLAEIDPSQFKVALAQALGQLAKDKATLANARRDLARYQQLVKTNLVSRQEL-DAQQALVSETEGTIKADEASVASAQLQLDWSRITAPVDGRVGLKQVDVGNQISSGDTTGIVVITQTHPIDLVFTLPESDIATVVQAQKAGKPLVVEAWDRTN--SKKLSEGTLLSLDNQ-------IDATTGTIKVKARFNNQDDALFPNQFVNARMLVDTEQNAVVIPTAALQMGNEGHFV-WVLNSENKVSKHLVTPGIQDSQRVVIRAGISAGDRVVTDGIDRLTEGAKVEVVEAQSATTSEE</Hsp_hseq>
+      <Hsp_midline>G   A     VR +V+G ++   F+EG  VKAG  L +IDP+ ++     A       +A LA+ +    RY+ LV    VS+Q+  DA  A +          +A+V  A++ L ++++ +P+ GR+G   V  G  +++G    +  + Q  PI +  T P + +  + +   +G+  +  A D     S KL +G+   L+ +       +D  TG++ ++A F N ++ L P  FV+A++    +Q A++ P   +    +G     V+N++NKV   ++        + ++  G++AGD+++T+G+  +  G +V+ V A++  ++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>sp|B7MWY7.1|</Hit_id>
+  <Hit_def>RecName: Full=Multidrug resistance protein MdtA; AltName: Full=Multidrug transporter MdtA; Flags: Precursor [Escherichia coli ED1a]</Hit_def>
+  <Hit_accession>B7MWY7</Hit_accession>
+  <Hit_len>415</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.005</Hsp_bit-score>
+      <Hsp_score>284</Hsp_score>
+      <Hsp_evalue>6.18679e-27</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>398</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>330</Hsp_align-len>
+      <Hsp_qseq>GRTNAFRIAEVRPQVNGIILKRLFKEGSDVKAGQQLYQIDPATYEADYQSAQ-------ANLASTQEQAQRYKLLVADQAVSKQQYADANAAYLQ--------SKAAVEQARINLRYTKVLSPISGRIGRSAVTEGALVTNGQANAMATVQQLDPIYVDVTQPSTALLRLRRELASGQ--LERAGDNAAKVSLKLEDGSQYPLEGRLEFSEVSVDEGTGSVTIRAVFPNPNNELLPGMFVHAQLQEGVKQKAILAPQQGVTRDLKGQATALVVNAQNKVELRVIKADRVIGDKWLVTEGLNAGDKIITEGLQFVQPGVEVKTVPAKNVAS</Hsp_qseq>
+      <Hsp_hseq>GTITAANTVTVRSRVDGQLMALHFQEGQQVKAGDLLAEIDPSQFKVALAQAQGQLAKDKATLANARRDLARYQQLAKTNLVSRQEL-DAQQALVSETEGTIKADEASVASAQLQLDWSRITAPVDGRVGLKQVDVGNQISSGDTTGIVVITQTHPIDLVFTLPESDIATVVQAQKAGKPLVVEAWDRTN--SKKLSEGTLLSLDNQ-------IDATTGTIKVKARFNNQDDALFPNQFVNARMLVDTEQNAVVIPTAALQMGNEGHFV-WVLNSENKVSKHLVTPGIQDSQKVVIRAGISAGDRVVTDGIDRLTEGAKVEVVEAQSATT</Hsp_hseq>
+      <Hsp_midline>G   A     VR +V+G ++   F+EG  VKAG  L +IDP+ ++     AQ       A LA+ +    RY+ L     VS+Q+  DA  A +          +A+V  A++ L ++++ +P+ GR+G   V  G  +++G    +  + Q  PI +  T P + +  + +   +G+  +  A D     S KL +G+   L+ +       +D  TG++ ++A F N ++ L P  FV+A++    +Q A++ P   +    +G     V+N++NKV   ++        K ++  G++AGD+++T+G+  +  G +V+ V A++  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>sp|B7M457.1|</Hit_id>
+  <Hit_def>RecName: Full=Multidrug resistance protein MdtA; AltName: Full=Multidrug transporter MdtA; Flags: Precursor [Escherichia coli IAI1]</Hit_def>
+  <Hit_accession>B7M457</Hit_accession>
+  <Hit_len>415</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.005</Hsp_bit-score>
+      <Hsp_score>284</Hsp_score>
+      <Hsp_evalue>6.69539e-27</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>398</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>330</Hsp_align-len>
+      <Hsp_qseq>GRTNAFRIAEVRPQVNGIILKRLFKEGSDVKAGQQLYQIDPATYEADYQSAQ-------ANLASTQEQAQRYKLLVADQAVSKQQYADANAAYLQ--------SKAAVEQARINLRYTKVLSPISGRIGRSAVTEGALVTNGQANAMATVQQLDPIYVDVTQPSTALLRLRRELASGQ--LERAGDNAAKVSLKLEDGSQYPLEGRLEFSEVSVDEGTGSVTIRAVFPNPNNELLPGMFVHAQLQEGVKQKAILAPQQGVTRDLKGQATALVVNAQNKVELRVIKADRVIGDKWLVTEGLNAGDKIITEGLQFVQPGVEVKTVPAKNVAS</Hsp_qseq>
+      <Hsp_hseq>GTITAANTVTVRSRVDGQLMALHFQEGQQVKAGDLLAEIDPSQFKVALAQAQGQLAKDKATLANARRDLARYQQLAKTNLVSRQEL-DAQQALVSETEGTIKADEASVASAQLQLDWSRITAPVDGRVGLKQVDVGNQISSGDTTGIVVITQTHPIDLVFTLPESDIATVVQAQKAGKPLVVEAWDRTN--SKKLSEGTLLSLDNQ-------IDATTGTIKVKARFNNQDDALFPNQFVNARMLVDTEQNAVVIPTAALQMGNEGHFV-WVLNSENKVSKHLVTPGIQDSQKVVIRAGISAGDRVVTDGIDRLTEGAKVEVVEAQSATT</Hsp_hseq>
+      <Hsp_midline>G   A     VR +V+G ++   F+EG  VKAG  L +IDP+ ++     AQ       A LA+ +    RY+ L     VS+Q+  DA  A +          +A+V  A++ L ++++ +P+ GR+G   V  G  +++G    +  + Q  PI +  T P + +  + +   +G+  +  A D     S KL +G+   L+ +       +D  TG++ ++A F N ++ L P  FV+A++    +Q A++ P   +    +G     V+N++NKV   ++        K ++  G++AGD+++T+G+  +  G +V+ V A++  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>sp|Q0TG16.1|</Hit_id>
+  <Hit_def>RecName: Full=Multidrug resistance protein MdtA; AltName: Full=Multidrug transporter MdtA; Flags: Precursor [Escherichia coli 536]</Hit_def>
+  <Hit_accession>Q0TG16</Hit_accession>
+  <Hit_len>415</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.62</Hsp_bit-score>
+      <Hsp_score>283</Hsp_score>
+      <Hsp_evalue>7.10404e-27</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>398</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>330</Hsp_align-len>
+      <Hsp_qseq>GRTNAFRIAEVRPQVNGIILKRLFKEGSDVKAGQQLYQIDPATYEADYQSAQ-------ANLASTQEQAQRYKLLVADQAVSKQQYADANAAYLQ--------SKAAVEQARINLRYTKVLSPISGRIGRSAVTEGALVTNGQANAMATVQQLDPIYVDVTQPSTALLRLRRELASGQ--LERAGDNAAKVSLKLEDGSQYPLEGRLEFSEVSVDEGTGSVTIRAVFPNPNNELLPGMFVHAQLQEGVKQKAILAPQQGVTRDLKGQATALVVNAQNKVELRVIKADRVIGDKWLVTEGLNAGDKIITEGLQFVQPGVEVKTVPAKNVAS</Hsp_qseq>
+      <Hsp_hseq>GTITAANTVTVRSRVDGQLMALHFQEGQQVKAGDLLAEIDPSQFKVALAQAQGQLAKDKATLANARRDLARYQQLAKTNLVSRQEL-DAQQALVSETEGTIKADEASVASAQLQLDWSRITAPVDGRVGLKQVDVGNQISSGDTTGIVVITQTHPIDLVFTLPESDIATVVQAQKAGKPLVVEAWDRTN--SKKLSEGTLLSLDNQ-------IDATTGTIKVKARFNNQDDALFPNQFVNARMLVDTEQNAVVIPTAALQMGNEGHFV-WVLNSENKVSKHLVTPGIQDSQKVVIRAGISAGDRVVTDGIDRLTEGAKVEVVEAQSATT</Hsp_hseq>
+      <Hsp_midline>G   A     VR +V+G ++   F+EG  VKAG  L +IDP+ ++     AQ       A LA+ +    RY+ L     VS+Q+  DA  A +          +A+V  A++ L ++++ +P+ GR+G   V  G  +++G    +  + Q  PI +  T P + +  + +   +G+  +  A D     S KL +G+   L+ +       +D  TG++ ++A F N ++ L P  FV+A++    +Q A++ P   +    +G     V+N++NKV   ++        K ++  G++AGD+++T+G+  +  G +V+ V A++  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>sp|A8A1U6.1|</Hit_id>
+  <Hit_def>RecName: Full=Multidrug resistance protein MdtA; AltName: Full=Multidrug transporter MdtA; Flags: Precursor [Escherichia coli HS] &gt;sp|B1X7H0.1| RecName: Full=Multidrug resistance protein MdtA; AltName: Full=Multidrug transporter MdtA; Flags: Precursor [Escherichia coli str. K-12 substr. DH10B] &gt;sp|B7UTB2.1| RecName: Full=Multidrug resistance protein MdtA; AltName: Full=Multidrug transporter MdtA; Flags: Precursor [Escherichia coli O127:H6 str. E2348/69] &gt;sp|C4ZSG2.1| RecName: Full=Multidrug resistance protein MdtA; AltName: Full=Multidrug transporter MdtA; Flags: Precursor [Escherichia coli BW2952] &gt;sp|P76397.2| RecName: Full=Multidrug resistance protein MdtA; AltName: Full=Multidrug transporter MdtA; Flags: Precursor [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>A8A1U6</Hit_accession>
+  <Hit_len>415</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.62</Hsp_bit-score>
+      <Hsp_score>283</Hsp_score>
+      <Hsp_evalue>7.53757e-27</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>398</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>330</Hsp_align-len>
+      <Hsp_qseq>GRTNAFRIAEVRPQVNGIILKRLFKEGSDVKAGQQLYQIDPATYEADYQSAQ-------ANLASTQEQAQRYKLLVADQAVSKQQYADANAAYLQ--------SKAAVEQARINLRYTKVLSPISGRIGRSAVTEGALVTNGQANAMATVQQLDPIYVDVTQPSTALLRLRRELASGQ--LERAGDNAAKVSLKLEDGSQYPLEGRLEFSEVSVDEGTGSVTIRAVFPNPNNELLPGMFVHAQLQEGVKQKAILAPQQGVTRDLKGQATALVVNAQNKVELRVIKADRVIGDKWLVTEGLNAGDKIITEGLQFVQPGVEVKTVPAKNVAS</Hsp_qseq>
+      <Hsp_hseq>GTITAANTVTVRSRVDGQLIALHFQEGQQVKAGDLLAEIDPSQFKVALAQAQGQLAKDKATLANARRDLARYQQLAKTNLVSRQEL-DAQQALVSETEGTIKADEASVASAQLQLDWSRITAPVDGRVGLKQVDVGNQISSGDTTGIVVITQTHPIDLVFTLPESDIATVVQAQKAGKPLVVEAWDRTN--SKKLSEGTLLSLDNQ-------IDATTGTIKVKARFNNQDDALFPNQFVNARMLVDTEQNAVVIPTAALQMGNEGHFV-WVLNSENKVSKHLVTPGIQDSQKVVIRAGISAGDRVVTDGIDRLTEGAKVEVVEAQSATT</Hsp_hseq>
+      <Hsp_midline>G   A     VR +V+G ++   F+EG  VKAG  L +IDP+ ++     AQ       A LA+ +    RY+ L     VS+Q+  DA  A +          +A+V  A++ L ++++ +P+ GR+G   V  G  +++G    +  + Q  PI +  T P + +  + +   +G+  +  A D     S KL +G+   L+ +       +D  TG++ ++A F N ++ L P  FV+A++    +Q A++ P   +    +G     V+N++NKV   ++        K ++  G++AGD+++T+G+  +  G +V+ V A++  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>sp|B4EY99.1|</Hit_id>
+  <Hit_def>RecName: Full=Multidrug resistance protein MdtA; AltName: Full=Multidrug transporter MdtA; Flags: Precursor [Proteus mirabilis HI4320]</Hit_def>
+  <Hit_accession>B4EY99</Hit_accession>
+  <Hit_len>411</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.235</Hsp_bit-score>
+      <Hsp_score>282</Hsp_score>
+      <Hsp_evalue>1.09759e-26</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>361</Hsp_query-to>
+      <Hsp_hit-from>82</Hsp_hit-from>
+      <Hsp_hit-to>393</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>321</Hsp_align-len>
+      <Hsp_qseq>GRTNAFRIAEVRPQVNGIILKRLFKEGSDVKAGQQLYQIDPATYEADYQSA-------QANLASTQEQAQRYKLLVADQAVSKQQYADANAAYLQS-------KAAVEQARINLRYTKVLSPISGRIGRSAVTEGALVTNGQANAMATVQQLDPIYVDVTQPSTALLRLRRELASGQLERAGDNAAKVSLKLEDGSQYPL-EGRLEFSEVSVDEGTGSVTIRAVFPNPNNELLPGMFVHAQLQEGVKQKAILAPQQGVTRDLKGQATALVVNAQNKVELRVIKADRVIGDKWLVTEGLNAGDKIITEGLQFVQPGVEVKTV</Hsp_qseq>
+      <Hsp_hseq>GTVKAVNSVTVTSRVEGQLMALHFTEGQQVNQGDLLAEIDPRPFEVQLAQAKGQLAKDQATLANARLDLARYQKLAKTHLVSQQELDNQAALVKQSEASISIDKAAINNAQLQLTYSKITAPISGRVGLKQVDVGNYISGGSSTPIVVINQMDPVDVLFTLP-------EQDLSQVILARKNNPTLPV-IALDRNNKIELAQGALFSVDNQIDATTGTIKLKARFPQQESTLFPNQFVNIRLYVTTLEKAVVIPNAALQMGNEGHFV-WVVDEENKVSKLAVEVASQNADKVVIASGLSANQRVVTDGVDRLTQGAKVEIV</Hsp_hseq>
+      <Hsp_midline>G   A     V  +V G ++   F EG  V  G  L +IDP  +E     A       QA LA+ +    RY+ L     VS+Q+  +  A   QS       KAA+  A++ L Y+K+ +PISGR+G   V  G  ++ G +  +  + Q+DP+ V  T P        ++L+   L R  +    V + L+  ++  L +G L   +  +D  TG++ ++A FP   + L P  FV+ +L     +KA++ P   +    +G     VV+ +NKV    ++      DK ++  GL+A  +++T+G+  +  G +V+ V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>sp|D2BTK6.1|</Hit_id>
+  <Hit_def>RecName: Full=Multidrug resistance protein MdtA; AltName: Full=Multidrug transporter MdtA; Flags: Precursor [Dickeya zeae Ech586]</Hit_def>
+  <Hit_accession>D2BTK6</Hit_accession>
+  <Hit_len>421</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.235</Hsp_bit-score>
+      <Hsp_score>282</Hsp_score>
+      <Hsp_evalue>1.20083e-26</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>382</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>401</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>48</Hsp_gaps>
+      <Hsp_align-len>379</Hsp_align-len>
+      <Hsp_qseq>SGCGK--SEAPPPAQTPEVGIVTLEAQTVTLNTELPGRTNAFRIAEVRPQVNGIILKRLFKEGSDVKAGQQLYQIDPATYEADYQSAQANLASTQ-------EQAQRYKLLVADQAVSKQQYADANAAYLQSKA-------AVEQARINLRYTKVLSPISGRIGRSAVTEGALVTNGQANAMATVQQLDPIYVDVTQPSTALLRLRRELASGQLERAGDNAAKVSLKLED-GSQYPL-EGRLEFSEVSVDEGTGSVTIRAVFPNPNNELLPGMFVHAQLQEGVKQKAILAPQQGVTRDLKGQATALVVNAQNKVELRVIKADRVIGDKWLVTEGLNAGDKIITEGLQFVQPGVEVKTVPAKNVASAQKADAAPAKTDSK</Hsp_qseq>
+      <Hsp_hseq>SGSGRRGSTAPPPVQA-----ALSSSSSVPYYLSGLGTVTAANTVTVHSRVSGQLMAIHFQEGQQVKEGELLAEIDPRPFQVALIQAQGQLAKDQALLVNARQDLVRYQQLSKTNLVSGQQLDTQESLVRQYEATVKSDQGAVASAQLQLDYSRITAPFNGRVGLRQIDIGNYVTS--TDNLLVLTQTHPIDVIFTVPESDIATVLKAQKSGQ---------PVPVEAWDRGSQRILSQGRLLSMDNQIDATTGTIKLKARFDNTDDALFPNQFVNIKMKVDTLQNVVIAPSAAIQMGNEGHFI-WVLNDKDQVSKHIITTGIQYGQQTVVSNGLNAGERVVTDGIDRLTEGARVEVL-------------APAAADSK</Hsp_hseq>
+      <Hsp_midline>SG G+  S APPP Q          + +V       G   A     V  +V+G ++   F+EG  VK G+ L +IDP  ++     AQ  LA  Q       +   RY+ L     VS QQ     +   Q +A       AV  A++ L Y+++ +P +GR+G   +  G  VT+   + +  + Q  PI V  T P + +  + +   SGQ          V ++  D GSQ  L +GRL   +  +D  TG++ ++A F N ++ L P  FV+ +++    Q  ++AP   +    +G     V+N +++V   +I      G + +V+ GLNAG++++T+G+  +  G  V+ +             APA  DSK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>sp|Q8CVX8.2|</Hit_id>
+  <Hit_def>RecName: Full=Multidrug resistance protein MdtA; AltName: Full=Multidrug transporter MdtA; Flags: Precursor [Escherichia coli CFT073]</Hit_def>
+  <Hit_accession>Q8CVX8</Hit_accession>
+  <Hit_len>415</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.079</Hsp_bit-score>
+      <Hsp_score>279</Hsp_score>
+      <Hsp_evalue>2.53466e-26</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>361</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>391</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>323</Hsp_align-len>
+      <Hsp_qseq>GRTNAFRIAEVRPQVNGIILKRLFKEGSDVKAGQQLYQIDPATYEADYQSAQ-------ANLASTQEQAQRYKLLVADQAVSKQQYADANAAYLQ--------SKAAVEQARINLRYTKVLSPISGRIGRSAVTEGALVTNGQANAMATVQQLDPIYVDVTQPSTALLRLRRELASGQ--LERAGDNAAKVSLKLEDGSQYPLEGRLEFSEVSVDEGTGSVTIRAVFPNPNNELLPGMFVHAQLQEGVKQKAILAPQQGVTRDLKGQATALVVNAQNKVELRVIKADRVIGDKWLVTEGLNAGDKIITEGLQFVQPGVEVKTV</Hsp_qseq>
+      <Hsp_hseq>GTITAANTVTVRSRVDGQLMALHFQEGQQVKAGDLLAEIDPSQFKVALAQAQGQLAKDKATLANARRDLARYQQLAKTNLVSRQEL-DAQQALVSETEGTIKADEASVASAQLQLDWSRITAPVDGRVGLKQVDVGNQISSGDTTGIVVITQTHPIDLVFTLPESDIATVVQAQKAGKPLVVEAWDRTN--SKKLSEGTLLSLDNQ-------IDATTGTIKVKARFNNQDDALFPNQFVNARMLVDTEQNAVVIPTAALQMGNEGHFV-WVLNSENKVSKHLVTPGIQDSQKVVIRAGISAGDRVVTDGIDRLTEGAKVEVV</Hsp_hseq>
+      <Hsp_midline>G   A     VR +V+G ++   F+EG  VKAG  L +IDP+ ++     AQ       A LA+ +    RY+ L     VS+Q+  DA  A +          +A+V  A++ L ++++ +P+ GR+G   V  G  +++G    +  + Q  PI +  T P + +  + +   +G+  +  A D     S KL +G+   L+ +       +D  TG++ ++A F N ++ L P  FV+A++    +Q A++ P   +    +G     V+N++NKV   ++        K ++  G++AGD+++T+G+  +  G +V+ V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>sp|B2TYA9.1|</Hit_id>
+  <Hit_def>RecName: Full=Multidrug resistance protein MdtA; AltName: Full=Multidrug transporter MdtA; Flags: Precursor [Shigella boydii CDC 3083-94] &gt;sp|B5YUD2.1| RecName: Full=Multidrug resistance protein MdtA; AltName: Full=Multidrug transporter MdtA; Flags: Precursor [Escherichia coli O157:H7 str. EC4115] &gt;sp|Q8X7J5.3| RecName: Full=Multidrug resistance protein MdtA; AltName: Full=Multidrug transporter MdtA; Flags: Precursor [Escherichia coli O157:H7]</Hit_def>
+  <Hit_accession>B2TYA9</Hit_accession>
+  <Hit_len>415</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.079</Hsp_bit-score>
+      <Hsp_score>279</Hsp_score>
+      <Hsp_evalue>2.88077e-26</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>398</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>330</Hsp_align-len>
+      <Hsp_qseq>GRTNAFRIAEVRPQVNGIILKRLFKEGSDVKAGQQLYQIDPATYEADYQSAQ-------ANLASTQEQAQRYKLLVADQAVSKQQYADANAAYLQ--------SKAAVEQARINLRYTKVLSPISGRIGRSAVTEGALVTNGQANAMATVQQLDPIYVDVTQPSTALLRLRRELASGQ--LERAGDNAAKVSLKLEDGSQYPLEGRLEFSEVSVDEGTGSVTIRAVFPNPNNELLPGMFVHAQLQEGVKQKAILAPQQGVTRDLKGQATALVVNAQNKVELRVIKADRVIGDKWLVTEGLNAGDKIITEGLQFVQPGVEVKTVPAKNVAS</Hsp_qseq>
+      <Hsp_hseq>GTITAANTVTVRSRVDGQLMALHFQEGQQVKAGDLLAEIDPSQFKVALAQAQGQLAKDKATLTNARRDLARYQQLAKTNLVSRQEL-DAQQALVSETEGTIKADEASVASAQLQLDWSRITAPVDGRVGLKQVDVGNQISSGDTTGIVVITQTHPIDLLFTLPESDIATVVQAQKAGKPLVVEAWDRTN--SKKLSEGTLLSLDNQ-------IDATTGTIKVKARFNNQDDALFPNQFVNARMLVDTEQNAVVIPTAALQMGNEGHFV-WVLNSENKVSKHLVTPGIQDSQKVVIRAGISAGDRVVTDGIDRLTEGAKVEVVEAQSATT</Hsp_hseq>
+      <Hsp_midline>G   A     VR +V+G ++   F+EG  VKAG  L +IDP+ ++     AQ       A L + +    RY+ L     VS+Q+  DA  A +          +A+V  A++ L ++++ +P+ GR+G   V  G  +++G    +  + Q  PI +  T P + +  + +   +G+  +  A D     S KL +G+   L+ +       +D  TG++ ++A F N ++ L P  FV+A++    +Q A++ P   +    +G     V+N++NKV   ++        K ++  G++AGD+++T+G+  +  G +V+ V A++  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>sp|B7L9U7.1|</Hit_id>
+  <Hit_def>RecName: Full=Multidrug resistance protein MdtA; AltName: Full=Multidrug transporter MdtA; Flags: Precursor [Escherichia coli 55989]</Hit_def>
+  <Hit_accession>B7L9U7</Hit_accession>
+  <Hit_len>415</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.694</Hsp_bit-score>
+      <Hsp_score>278</Hsp_score>
+      <Hsp_evalue>3.50751e-26</Hsp_evalue>
+      <Hsp_query-from>66</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>90</Hsp_hit-from>
+      <Hsp_hit-to>398</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>161</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>320</Hsp_align-len>
+      <Hsp_qseq>VRPQVNGIILKRLFKEGSDVKAGQQLYQIDPATYEADYQSAQ-------ANLASTQEQAQRYKLLVADQAVSKQQYADANAAYLQ--------SKAAVEQARINLRYTKVLSPISGRIGRSAVTEGALVTNGQANAMATVQQLDPIYVDVTQPSTALLRLRRELASGQ--LERAGDNAAKVSLKLEDGSQYPLEGRLEFSEVSVDEGTGSVTIRAVFPNPNNELLPGMFVHAQLQEGVKQKAILAPQQGVTRDLKGQATALVVNAQNKVELRVIKADRVIGDKWLVTEGLNAGDKIITEGLQFVQPGVEVKTVPAKNVAS</Hsp_qseq>
+      <Hsp_hseq>VRSRVDGQLMALHFQEGQQVKAGDLLAEIDPSQFKVALAQTQGQLAKDKATLANARRDLARYQQLAKTNLVSRQEL-DAQQALVSETEGTIKADEASVASAQLQLDWSRITAPVDGRVGLKQVDVGNQISSGDTTGIVVITQTHPIDLVFTLPESDIATVVQAQKAGKPLVVEAWDRTN--SKKLSEGTLLSLDNQ-------IDATTGTIKVKARFNNQDDALFPNQFVNARMLVDTEQNAVVIPTAALQMGNEGHFV-WVLNSENKVSKHLVTPGIQDSQKVVIRAGISAGDRVVTDGIDRLTEGAKVEVVEAQSATT</Hsp_hseq>
+      <Hsp_midline>VR +V+G ++   F+EG  VKAG  L +IDP+ ++      Q       A LA+ +    RY+ L     VS+Q+  DA  A +          +A+V  A++ L ++++ +P+ GR+G   V  G  +++G    +  + Q  PI +  T P + +  + +   +G+  +  A D     S KL +G+   L+ +       +D  TG++ ++A F N ++ L P  FV+A++    +Q A++ P   +    +G     V+N++NKV   ++        K ++  G++AGD+++T+G+  +  G +V+ V A++  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>sp|B1JSD5.1|</Hit_id>
+  <Hit_def>RecName: Full=Multidrug resistance protein MdtA; AltName: Full=Multidrug transporter MdtA; Flags: Precursor [Yersinia pseudotuberculosis YPIII]</Hit_def>
+  <Hit_accession>B1JSD5</Hit_accession>
+  <Hit_len>444</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.309</Hsp_bit-score>
+      <Hsp_score>277</Hsp_score>
+      <Hsp_evalue>6.82288e-26</Hsp_evalue>
+      <Hsp_query-from>66</Hsp_query-from>
+      <Hsp_query-to>361</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>397</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>315</Hsp_align-len>
+      <Hsp_qseq>VRPQVNGIILKRLFKEGSDVKAGQQLYQIDPATYEADYQSAQANLASTQ-------EQAQRYKLLVADQAVSKQQYADANAAYLQS-------KAAVEQARINLRYTKVLSPISGRIGRSAVTEGALVTNGQANAMATVQQLDPIYVDVTQPST---ALLRLRRELASGQLERAGDNAAKVSLKLED--GSQYPLEGRLEFSEVSVDEGTGSVTIRAVFPNPNNELLPGMFVHAQLQEGVKQKAILAPQQGVTRDLKGQATALVVNAQNKVELRVIKADRVIGDKWLVTEGLNAGDKIITEGLQFVQPGVEVKTV</Hsp_qseq>
+      <Hsp_hseq>VTSRVDGELMALHFTEGQQVKAGDLLAEIDPRPYEVQLTQAQGQLAKDQATLDNARRDLARYQKLSKTGLISQQELDTQSSLVRQSEGSVKADQGAIDSAKLQLTYSRITAPISGRVGLKQVDVGNYITSGTATPIVVITQTHPVDVVFTLPESDIPAIMQAQKN--------AEKTHAIVPVEAWDRTNKQMLAQGYLLSIDNQIDTTTGTIKLKARFNNEDDVLFPNQFVNARIKVDLLQNAVVVPTAAVQMGSEGNFVWTLDDA-NKVSKHLVTTGIQNSQQVVIDAGLNAGQRVVTDGIDRLTEGVQVEVV</Hsp_hseq>
+      <Hsp_midline>V  +V+G ++   F EG  VKAG  L +IDP  YE     AQ  LA  Q           RY+ L     +S+Q+    ++   QS       + A++ A++ L Y+++ +PISGR+G   V  G  +T+G A  +  + Q  P+ V  T P +   A+++ ++         A    A V ++  D    Q   +G L   +  +D  TG++ ++A F N ++ L P  FV+A+++  + Q A++ P   V    +G     + +A NKV   ++        + ++  GLNAG +++T+G+  +  GV+V+ V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>sp|A4TMR2.1|</Hit_id>
+  <Hit_def>RecName: Full=Multidrug resistance protein MdtA; AltName: Full=Multidrug transporter MdtA; Flags: Precursor [Yersinia pestis Pestoides F] &gt;sp|Q1C5M1.1| RecName: Full=Multidrug resistance protein MdtA; AltName: Full=Multidrug transporter MdtA; Flags: Precursor [Yersinia pestis Antiqua] &gt;sp|Q1CK59.1| RecName: Full=Multidrug resistance protein MdtA; AltName: Full=Multidrug transporter MdtA; Flags: Precursor [Yersinia pestis Nepal516] &gt;sp|Q8ZCW1.1| RecName: Full=Multidrug resistance protein MdtA; AltName: Full=Multidrug transporter MdtA; Flags: Precursor [Yersinia pestis]</Hit_def>
+  <Hit_accession>A4TMR2</Hit_accession>
+  <Hit_len>444</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.309</Hsp_bit-score>
+      <Hsp_score>277</Hsp_score>
+      <Hsp_evalue>8.29248e-26</Hsp_evalue>
+      <Hsp_query-from>66</Hsp_query-from>
+      <Hsp_query-to>361</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>397</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>315</Hsp_align-len>
+      <Hsp_qseq>VRPQVNGIILKRLFKEGSDVKAGQQLYQIDPATYEADYQSAQANLASTQ-------EQAQRYKLLVADQAVSKQQYADANAAYLQS-------KAAVEQARINLRYTKVLSPISGRIGRSAVTEGALVTNGQANAMATVQQLDPIYVDVTQPST---ALLRLRRELASGQLERAGDNAAKVSLKLED--GSQYPLEGRLEFSEVSVDEGTGSVTIRAVFPNPNNELLPGMFVHAQLQEGVKQKAILAPQQGVTRDLKGQATALVVNAQNKVELRVIKADRVIGDKWLVTEGLNAGDKIITEGLQFVQPGVEVKTV</Hsp_qseq>
+      <Hsp_hseq>VTSRVDGELMALHFTEGQQVKAGDLLAEIDPRPYEVQLTQAQGQLAKDQATLDNARRDLARYQKLSKTGLISQQELDTQSSLVRQSEGSVKADQGAIDSAKLQLTYSRITAPISGRVGLKQVDVGNYITSGTATPIVVITQTHPVDVVFTLPESDIPAIIQAQKN--------AEKTHAIVPVEAWDRTNKQMLAQGYLLSIDNQIDTTTGTIKLKARFNNEDDVLFPNQFVNARIKVDLLQNAVVVPTAAVQMGSEGNFVWTLDDA-NKVSKHLVTTGIQNSQQVVIDAGLNAGQRVVTDGIDRLTEGVQVEVV</Hsp_hseq>
+      <Hsp_midline>V  +V+G ++   F EG  VKAG  L +IDP  YE     AQ  LA  Q           RY+ L     +S+Q+    ++   QS       + A++ A++ L Y+++ +PISGR+G   V  G  +T+G A  +  + Q  P+ V  T P +   A+++ ++         A    A V ++  D    Q   +G L   +  +D  TG++ ++A F N ++ L P  FV+A+++  + Q A++ P   V    +G     + +A NKV   ++        + ++  GLNAG +++T+G+  +  GV+V+ V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>sp|A7FG18.1|</Hit_id>
+  <Hit_def>RecName: Full=Multidrug resistance protein MdtA; AltName: Full=Multidrug transporter MdtA; Flags: Precursor [Yersinia pseudotuberculosis IP 31758]</Hit_def>
+  <Hit_accession>A7FG18</Hit_accession>
+  <Hit_len>444</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.923</Hsp_bit-score>
+      <Hsp_score>276</Hsp_score>
+      <Hsp_evalue>9.2313e-26</Hsp_evalue>
+      <Hsp_query-from>66</Hsp_query-from>
+      <Hsp_query-to>361</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>397</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>315</Hsp_align-len>
+      <Hsp_qseq>VRPQVNGIILKRLFKEGSDVKAGQQLYQIDPATYEADYQSAQANLASTQ-------EQAQRYKLLVADQAVSKQQYADANAAYLQS-------KAAVEQARINLRYTKVLSPISGRIGRSAVTEGALVTNGQANAMATVQQLDPIYVDVTQPST---ALLRLRRELASGQLERAGDNAAKVSLKLED--GSQYPLEGRLEFSEVSVDEGTGSVTIRAVFPNPNNELLPGMFVHAQLQEGVKQKAILAPQQGVTRDLKGQATALVVNAQNKVELRVIKADRVIGDKWLVTEGLNAGDKIITEGLQFVQPGVEVKTV</Hsp_qseq>
+      <Hsp_hseq>VTSRVDGELMALHFTEGQQVKAGDLLAEIDPRPYEVQLTQAQGQLAKDQATLDNARRDLARYQKLSKTGLISQQELDTQSSLVRQSEGSVKADQGAIDSAKLQLTYSRITAPISGRVGLKQVDVGNYITSGTATPIVVITQTHPVDVVFTLPESDIPAIIQAQKN--------AEKTHAIVPVEAWDRTNKQMLAQGYLLSIDNQIDTTTGTIKLKARFNNEDDVLFPNQFVNARIKVDLLQNAVVVPTAAVQMGSEGNFVWTLDDA-NKVSKHLVTTGIQNSQQVVIDAGLNAGQRVVTDGIDRLTEGVQVEVV</Hsp_hseq>
+      <Hsp_midline>V  +V+G ++   F EG  VKAG  L +IDP  YE     AQ  LA  Q           RY+ L     +S+Q+    ++   QS       + A++ A++ L Y+++ +PISGR+G   V  G  +T+G A  +  + Q  P+ V  T P +   A+++ ++         A    A V ++  D    Q   +G L   +  +D  TG++ ++A F N ++ L P  FV+A+++  + Q A++ P   V    +G     + +A NKV   ++        + ++  GLNAG +++T+G+  +  GV+V+ V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>sp|B2K9L9.1|</Hit_id>
+  <Hit_def>RecName: Full=Multidrug resistance protein MdtA; AltName: Full=Multidrug transporter MdtA; Flags: Precursor [Yersinia pseudotuberculosis PB1/+] &gt;sp|Q668C7.2| RecName: Full=Multidrug resistance protein MdtA; AltName: Full=Multidrug transporter MdtA; Flags: Precursor [Yersinia pseudotuberculosis IP 32953]</Hit_def>
+  <Hit_accession>B2K9L9</Hit_accession>
+  <Hit_len>444</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.538</Hsp_bit-score>
+      <Hsp_score>275</Hsp_score>
+      <Hsp_evalue>1.50259e-25</Hsp_evalue>
+      <Hsp_query-from>66</Hsp_query-from>
+      <Hsp_query-to>361</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>397</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>315</Hsp_align-len>
+      <Hsp_qseq>VRPQVNGIILKRLFKEGSDVKAGQQLYQIDPATYEADYQSAQANLASTQ-------EQAQRYKLLVADQAVSKQQYADANAAYLQS-------KAAVEQARINLRYTKVLSPISGRIGRSAVTEGALVTNGQANAMATVQQLDPIYVDVTQPST---ALLRLRRELASGQLERAGDNAAKVSLKLED--GSQYPLEGRLEFSEVSVDEGTGSVTIRAVFPNPNNELLPGMFVHAQLQEGVKQKAILAPQQGVTRDLKGQATALVVNAQNKVELRVIKADRVIGDKWLVTEGLNAGDKIITEGLQFVQPGVEVKTV</Hsp_qseq>
+      <Hsp_hseq>VTSRVDGELMALHFTEGQQVKAGDLLAEIDPRPYEVQLTQAQGQLAKDQATLDNARRDLARYQKLSKTGLISQQELDTQSSLVRQSEGSVKADQGAIDSAKLQLTYSRITAPISGRVGLKQVDVGNYITSGTATPIVVITQTHPVDVVFTLPESDIPAIMQAQKN--------AEKTHAIVPVEAWDRTNKQMLAQGYLLSIDNQIDTTTGTIKLKARFNNEDDVLFPNQFVNARIKVDLLQNAVVVPTAAVQMGSEGNFVWTLDDA-NRVSKHLVTTGIQDSQQVVIDAGLNAGQRVVTDGIDRLTEGVQVEVV</Hsp_hseq>
+      <Hsp_midline>V  +V+G ++   F EG  VKAG  L +IDP  YE     AQ  LA  Q           RY+ L     +S+Q+    ++   QS       + A++ A++ L Y+++ +PISGR+G   V  G  +T+G A  +  + Q  P+ V  T P +   A+++ ++         A    A V ++  D    Q   +G L   +  +D  TG++ ++A F N ++ L P  FV+A+++  + Q A++ P   V    +G     + +A N+V   ++        + ++  GLNAG +++T+G+  +  GV+V+ V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>sp|A1JKX1.1|</Hit_id>
+  <Hit_def>RecName: Full=Multidrug resistance protein MdtA; AltName: Full=Multidrug transporter MdtA; Flags: Precursor [Yersinia enterocolitica subsp. enterocolitica 8081]</Hit_def>
+  <Hit_accession>A1JKX1</Hit_accession>
+  <Hit_len>443</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.768</Hsp_bit-score>
+      <Hsp_score>273</Hsp_score>
+      <Hsp_evalue>2.85665e-25</Hsp_evalue>
+      <Hsp_query-from>66</Hsp_query-from>
+      <Hsp_query-to>375</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>410</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>330</Hsp_align-len>
+      <Hsp_qseq>VRPQVNGIILKRLFKEGSDVKAGQQLYQIDPATYEADYQSAQANLASTQ-------EQAQRYKLLVADQAVSKQQYADANAAYLQ--------SKAAVEQARINLRYTKVLSPISGRIGRSAVTEGALVTNGQANAMATVQQLDPIYVDVTQPST---ALLRLRRELASGQLERAGDNAAKVSLKLED--GSQYPLEGRLEFSEVSVDEGTGSVTIRAVFPNPNNELLPGMFVHAQLQEGVKQKAILAPQQGVTRDLKGQATALVVNAQNKVELRVIKADRVIGDKWLVTEGLNAGDKIITEGLQFVQPGVEVKTVPAKNVASAQKADAA</Hsp_qseq>
+      <Hsp_hseq>VTSQVDGQLMAIHFTEGQQVNAGDLLVEIDPRPYQVQLTQAQGQLAKDQATLDNARRDLARYQKLAKTGLIS-QQDLDTQASLVRQSEGSVKADQGAIDSAKLQLTYSRITAPISGKVGLKQVDVGNYITSGTTTPIVVITQTHPVDVVFTLPESDIPAIMQAQKN--------AAKNNTTVPVEAWDRTNKQMLAQGYLLSIDNQIDTTTGTIKLKARFANEDDVLFPNQFVNARIKVDLLQNAVVVPTAAVQMGNEG-SFVWTLNDENKVSKHLVTTGIQDSKQVVISAGLDAGQRVVTDGIDRLTEGLQVEVVTPRS-ADTTPTDAA</Hsp_hseq>
+      <Hsp_midline>V  QV+G ++   F EG  V AG  L +IDP  Y+     AQ  LA  Q           RY+ L     +S QQ  D  A+ ++         + A++ A++ L Y+++ +PISG++G   V  G  +T+G    +  + Q  P+ V  T P +   A+++ ++         A  N   V ++  D    Q   +G L   +  +D  TG++ ++A F N ++ L P  FV+A+++  + Q A++ P   V    +G +    +N +NKV   ++        + +++ GL+AG +++T+G+  +  G++V+ V  ++ A     DAA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>sp|D3V7P2.1|</Hit_id>
+  <Hit_def>RecName: Full=Multidrug resistance protein MdtA; AltName: Full=Multidrug transporter MdtA; Flags: Precursor [Xenorhabdus bovienii SS-2004]</Hit_def>
+  <Hit_accession>D3V7P2</Hit_accession>
+  <Hit_len>413</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>106.301</Hsp_bit-score>
+      <Hsp_score>264</Hsp_score>
+      <Hsp_evalue>3.42196e-24</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>398</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>353</Hsp_align-len>
+      <Hsp_qseq>PEVGIVTLEAQTVTLNTELPGRTNAFRIAEVRPQVNGIILKRLFKEGSDVKAGQQLYQIDPATYE-------ADYQSAQANLASTQEQAQRYKLLVADQAVSKQQYADANAAYLQSKA-------AVEQARINLRYTKVLSPISGRIGRSAVTEGALVTNGQANAMATVQQLDPIYVDVTQPSTALLRLRRELASGQLERAGDNAAKVSLKLEDGSQYPL-EGRLEFSEVSVDEGTGSVTIRAVFPNPNNELLPGMFVHAQLQEGVKQKAILAPQQGVTRDLKGQATALVVNAQNKVELRVIKADRVIGDKWLVTEGLNAGDKIITEGLQFVQPGVEVKTVPAKNVASAQKAD</Hsp_qseq>
+      <Hsp_hseq>PPVQVATAKIQSVPHYLGGLGTVQAANTVTVTSLVAGQLTALHFDEGQFVKQGDLLAEIDPRSFQIQLAKVQGQYAKDQATLANSRQDLVRYQQLAKNKSISQQDLDKQISTVRQYEALLKADQSSIDDARLQLTYSRITAPISGRVGLKKIDVGNYISAGGGTPLVIITQVDPIDV--------LFALPENDISAVLKAQKNNKDVVVTAWDRNNQQQLAQGKLLSIDNLIDVTTGTIKMKARFDNQNNVLFPNQFVNIQIKVNTLENAIVIPNAALQMSSEGHY-VWKVDKENKVNKRKVTIGLQNAQLVVISKGLATGDRVVTDGTDALTEGTGITIVKPLKSESANTYD</Hsp_hseq>
+      <Hsp_midline>P V + T + Q+V       G   A     V   V G +    F EG  VK G  L +IDP +++         Y   QA LA++++   RY+ L  ++++S+Q      +   Q +A       +++ AR+ L Y+++ +PISGR+G   +  G  ++ G    +  + Q+DPI V        L  L     S  L+   +N   V    +  +Q  L +G+L   +  +D  TG++ ++A F N NN L P  FV+ Q++    + AI+ P   +    +G      V+ +NKV  R +          ++++GL  GD+++T+G   +  G  +  V      SA   D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>sp|Q7N3E3.1|</Hit_id>
+  <Hit_def>RecName: Full=Multidrug resistance protein MdtA; AltName: Full=Multidrug transporter MdtA; Flags: Precursor [Photorhabdus laumondii subsp. laumondii TTO1]</Hit_def>
+  <Hit_accession>Q7N3E3</Hit_accession>
+  <Hit_len>401</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.916</Hsp_bit-score>
+      <Hsp_score>263</Hsp_score>
+      <Hsp_evalue>3.98503e-24</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>396</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>353</Hsp_align-len>
+      <Hsp_qseq>PEVGIVTLEAQTVTLNTELPGRTNAFRIAEVRPQVNGIILKRLFKEGSDVKAGQQLYQIDPATYEADYQSA-------QANLASTQEQAQRYKLLVADQAVSKQQYADANAAYLQS-------KAAVEQARINLRYTKVLSPISGRIGRSAVTEGALVTNGQANAMATVQQLDPIYVDVTQPSTALLRLRRELASGQLERAGDNAAKVSLKLEDGSQYPLEGRLEFSEVSVDEGTGSVTIRAVFPNPNNELLPGMFVHAQLQEGVKQKAILAPQQGVTRDLKGQATALVVNAQNKVELRVIKADRVIGDKWLVTEGLNAGDKIITEGLQFVQPGVEVKTV-PAKNVASAQKAD</Hsp_qseq>
+      <Hsp_hseq>PPVQVATAKEQAVPRFLAGLGTIQAANTATVTSRVEGQLIALHFQEGQQIKQGDLLAEIDPRPFQVQLAQAKGQLAKDEAILANARQDLNRYQKLANTHLISQQEMDNQRALVRQHEASLKVDQAAIDSAKLQLTYSRITAPISGKVGLKQIDVGNFISSGNSSSIVVITQTDPVDVLFSLPENDI------NAVLQAQKTNHDVV-VSAWDRNNQQQLAAGKLLSIDNQIDATTGTIKLKARFSNQESILFPNQFVNVRIKVDTLENAVVIPNAALQMGNEGNFVWM-LGKENKVSKHLVTVKLQDTKRVVISAGLAAGDKVVTDGIDRLTDGAKVDIVTPMVNKPQPQKHD</Hsp_hseq>
+      <Hsp_midline>P V + T + Q V       G   A   A V  +V G ++   F+EG  +K G  L +IDP  ++     A       +A LA+ ++   RY+ L     +S+Q+  +  A   Q        +AA++ A++ L Y+++ +PISG++G   +  G  +++G ++++  + Q DP+ V  + P   +       A  Q ++   +   VS    +  Q    G+L   +  +D  TG++ ++A F N  + L P  FV+ +++    + A++ P   +    +G    + +  +NKV   ++        + +++ GL AGDK++T+G+  +  G +V  V P  N    QK D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>sp|Q8ZNQ3.1|</Hit_id>
+  <Hit_def>RecName: Full=Multidrug resistance protein MdtA; AltName: Full=Multidrug transporter MdtA; Flags: Precursor [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]</Hit_def>
+  <Hit_accession>Q8ZNQ3</Hit_accession>
+  <Hit_len>413</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.138</Hsp_bit-score>
+      <Hsp_score>248</Hsp_score>
+      <Hsp_evalue>4.17884e-22</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>79</Hsp_hit-from>
+      <Hsp_hit-to>401</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>332</Hsp_align-len>
+      <Hsp_qseq>GRTNAFRIAEVRPQVNGIILKRLFKEGSDVKAGQQLYQIDPATYEADYQSAQ-------ANLASTQEQAQRYKLLVADQAVSKQQYADANAAYLQ--------SKAAVEQARINLRYTKVLSPISGRIGRSAVTEGALVTNGQANAMATVQQLDPIYVDVTQPSTALLRLRRELASGQLERAGDNAAKVSLKLEDGSQYPLEGRLEFSEVSVDEGTGSVTIRAVFPNPNNELLPGMFVHAQLQEGVKQKAILAPQQGVTRDLKGQATALVVNAQNKVELRVIKADRVIGDKWLVTEGLNAGDKIITEGLQFVQPGVEVKTVPAKNVASAQKA</Hsp_qseq>
+      <Hsp_hseq>GTVTAANTVTVRSRVDGQLIALHFQEGQQVNAGDLLAQIDPSQFKVALAQAQGQLAKDNATLANARRDLARYQQLAKTNLVSRQEL-DAQQALVNETQGTIKADEANVASAQLQLDWSRITAPVSGRVGLKQVDVGNQISSSDTAGIVVITQTHPIDLIFTLPESDIATVV------QAQKAG-KALVVEAWDRTNSHKLSEGVLLSLDNQIDPTTGTIKIKARFTNQDDTLFPNQFVNARMLVDTEQNAVVVPAAAVQMGNEGHFV-WVLNDENNVSKKRVKIGIQDNRNVVISAGLSAGDRVVTDGIDRLTEGAKVEVVEPQTTVADEKS</Hsp_hseq>
+      <Hsp_midline>G   A     VR +V+G ++   F+EG  V AG  L QIDP+ ++     AQ       A LA+ +    RY+ L     VS+Q+  DA  A +          +A V  A++ L ++++ +P+SGR+G   V  G  +++     +  + Q  PI +  T P + +  +       Q ++AG  A  V       S    EG L   +  +D  TG++ I+A F N ++ L P  FV+A++    +Q A++ P   V    +G     V+N +N V  + +K         +++ GL+AGD+++T+G+  +  G +V+ V  +   + +K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>sp|Q8Z5F8.1|</Hit_id>
+  <Hit_def>RecName: Full=Multidrug resistance protein MdtA; AltName: Full=Multidrug transporter MdtA; Flags: Precursor [Salmonella enterica subsp. enterica serovar Typhi]</Hit_def>
+  <Hit_accession>Q8Z5F8</Hit_accession>
+  <Hit_len>413</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.7525</Hsp_bit-score>
+      <Hsp_score>247</Hsp_score>
+      <Hsp_evalue>5.74119e-22</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>79</Hsp_hit-from>
+      <Hsp_hit-to>401</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>161</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>GRTNAFRIAEVRPQVNGIILKRLFKEGSDVKAGQQLYQIDPATYEADYQSAQ-------ANLASTQEQAQRYKLLVADQAVSKQQYADANAAYLQ--------SKAAVEQARINLRYTKVLSPISGRIGRSAVTEGALVTNGQANAMATVQQLDPIYVDVTQPSTALLRLRRELASGQ--LERAGDNAAKVSLKLEDGSQYPLEGRLEFSEVSVDEGTGSVTIRAVFPNPNNELLPGMFVHAQLQEGVKQKAILAPQQGVTRDLKGQATALVVNAQNKVELRVIKADRVIGDKWLVTEGLNAGDKIITEGLQFVQPGVEVKTVPAKNVASAQKA</Hsp_qseq>
+      <Hsp_hseq>GTVTAANTVTVRSRVDGQLIALHFQEGQQVNAGDLLAQIDPSQFKVALAQAQGQLAKDNATLANARRDLARYQQLAKTNLVSRQEL-DAQQALVNETQGTIKADEANVASAQLQLDWSRITAPVSGRVGLKQVDVGNQISSSDTAGIVVITQTHPIDLIFTLPESDIATVVQAQKAGKTLVVEAWDRTN--SHKLSEGVLLSLDNQ-------IDPTTGTIKIKARFTNQDDTLFPNQFVNARMLVDTEQNAVVVPAAAVQMGNEGHF-VWVLNDENNVSKKRVKIGIQDNRNVVISAGLSAGDRVVTDGIDRLTEGAKVEVVEPQTTMADEKS</Hsp_hseq>
+      <Hsp_midline>G   A     VR +V+G ++   F+EG  V AG  L QIDP+ ++     AQ       A LA+ +    RY+ L     VS+Q+  DA  A +          +A V  A++ L ++++ +P+SGR+G   V  G  +++     +  + Q  PI +  T P + +  + +   +G+  +  A D     S KL +G    L+ +       +D  TG++ I+A F N ++ L P  FV+A++    +Q A++ P   V    +G     V+N +N V  + +K         +++ GL+AGD+++T+G+  +  G +V+ V  +   + +K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>sp|C0Q1F4.1|</Hit_id>
+  <Hit_def>RecName: Full=Multidrug resistance protein MdtA; AltName: Full=Multidrug transporter MdtA; Flags: Precursor [Salmonella enterica subsp. enterica serovar Paratyphi C str. RKS4594]</Hit_def>
+  <Hit_accession>C0Q1F4</Hit_accession>
+  <Hit_len>413</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.7525</Hsp_bit-score>
+      <Hsp_score>247</Hsp_score>
+      <Hsp_evalue>5.74119e-22</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>79</Hsp_hit-from>
+      <Hsp_hit-to>401</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>161</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>GRTNAFRIAEVRPQVNGIILKRLFKEGSDVKAGQQLYQIDPATYEADYQSAQ-------ANLASTQEQAQRYKLLVADQAVSKQQYADANAAYLQ--------SKAAVEQARINLRYTKVLSPISGRIGRSAVTEGALVTNGQANAMATVQQLDPIYVDVTQPSTALLRLRRELASGQ--LERAGDNAAKVSLKLEDGSQYPLEGRLEFSEVSVDEGTGSVTIRAVFPNPNNELLPGMFVHAQLQEGVKQKAILAPQQGVTRDLKGQATALVVNAQNKVELRVIKADRVIGDKWLVTEGLNAGDKIITEGLQFVQPGVEVKTVPAKNVASAQKA</Hsp_qseq>
+      <Hsp_hseq>GTVTAANTVTVRSRVDGQLIALHFQEGQQVNAGDLLAQIDPSQFKVALAQAQGQLAKDNATLANARRDLARYQQLAKTNLVSRQEL-DAQQALVNETQGTIKADEANVASAQLQLDWSRITAPVSGRVGLKQVDVGNQISSSDTAGIVVITQTHPIDLIFTLPESDIATVVQAQKAGKTLVVEAWDRTN--SHKLSEGVLLSLDNQ-------IDPTTGTIKIKARFTNQDDTLFPNQFVNARMLVDTEQNAVVVPAAAVQMGNEGHF-VWVLNDENNVSKKRVKIGIQDNRNVVISAGLSAGDRVVTDGIDRLTEGAKVEVVEPQTTMADEKS</Hsp_hseq>
+      <Hsp_midline>G   A     VR +V+G ++   F+EG  V AG  L QIDP+ ++     AQ       A LA+ +    RY+ L     VS+Q+  DA  A +          +A V  A++ L ++++ +P+SGR+G   V  G  +++     +  + Q  PI +  T P + +  + +   +G+  +  A D     S KL +G    L+ +       +D  TG++ I+A F N ++ L P  FV+A++    +Q A++ P   V    +G     V+N +N V  + +K         +++ GL+AGD+++T+G+  +  G +V+ V  +   + +K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>sp|B4T9U0.1|</Hit_id>
+  <Hit_def>RecName: Full=Multidrug resistance protein MdtA; AltName: Full=Multidrug transporter MdtA; Flags: Precursor [Salmonella enterica subsp. enterica serovar Heidelberg str. SL476]</Hit_def>
+  <Hit_accession>B4T9U0</Hit_accession>
+  <Hit_len>413</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.5969</Hsp_bit-score>
+      <Hsp_score>244</Hsp_score>
+      <Hsp_evalue>1.47227e-21</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>79</Hsp_hit-from>
+      <Hsp_hit-to>401</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>GRTNAFRIAEVRPQVNGIILKRLFKEGSDVKAGQQLYQIDPATYEADYQSAQ-------ANLASTQEQAQRYKLLVADQAVSKQQYADANAAYLQ--------SKAAVEQARINLRYTKVLSPISGRIGRSAVTEGALVTNGQANAMATVQQLDPIYVDVTQPSTALLRLRRELASGQ--LERAGDNAAKVSLKLEDGSQYPLEGRLEFSEVSVDEGTGSVTIRAVFPNPNNELLPGMFVHAQLQEGVKQKAILAPQQGVTRDLKGQATALVVNAQNKVELRVIKADRVIGDKWLVTEGLNAGDKIITEGLQFVQPGVEVKTVPAKNVASAQKA</Hsp_qseq>
+      <Hsp_hseq>GTVTAANTVTVRSRVDGQLIALHFQEGQQVNAGDLLAQIDPSQFKVALAQAQGQLAKDNATLANARRDLARYQQLAKTNLVSRQEL-DAQQALVNETQGTIKADEANVASAQLQLDWSRITAPVSGRVGLKQVDVGNQISSSDTAGIVVITQTHPIDLIFTLPESDIATVVQAQKAGKTLVVEAWDRTN--SHKLSEGVLLSLDNQ-------IDPTTGTIKIKARFTNQDDTLFPNQFVNARMLVDTEQNAVVVPAAAVQMGNEGHF-VWVLNDENNVSKMRVKIGIQDNQNVVISAGLSAGDRVVTDGIDRLTEGAKVEVVEPQTTMADEKS</Hsp_hseq>
+      <Hsp_midline>G   A     VR +V+G ++   F+EG  V AG  L QIDP+ ++     AQ       A LA+ +    RY+ L     VS+Q+  DA  A +          +A V  A++ L ++++ +P+SGR+G   V  G  +++     +  + Q  PI +  T P + +  + +   +G+  +  A D     S KL +G    L+ +       +D  TG++ I+A F N ++ L P  FV+A++    +Q A++ P   V    +G     V+N +N V    +K         +++ GL+AGD+++T+G+  +  G +V+ V  +   + +K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>476618</Statistics_db-num>
+      <Statistics_db-len>180536657</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

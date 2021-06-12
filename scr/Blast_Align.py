@@ -68,6 +68,8 @@ def run_blastp(sequence, cID):
                 if '&gt' in k:
                     k = k.split('&gt')[0]
             if line.strip().startswith('<Hsp_qseq>'):
+                if k.startswith('RecName: '):
+                    k = k.split('RecName: ')[1]
                 dico[k.strip()] = line.split('>')[1].split('<')[0]
                 #print(line.split('>')[1].split('<')[0])
 
