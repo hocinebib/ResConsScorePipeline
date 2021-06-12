@@ -49,7 +49,10 @@ def run_blastp(sequence, cID):
 
     print('writing on xml file')
 
-    with open(cID+"_blastp.xml", "w") as out_handle:
+    if not os.path.exists('../Results'):
+        os.makedirs('../Results')
+
+    with open('../Results'+cID+"_blastp.xml", "w") as out_handle:
         out_handle.write(result_handle.read())
 
     result_handle.close()
@@ -58,10 +61,7 @@ def run_blastp(sequence, cID):
 
     print('writing in fasta format')
 
-    if not os.path.exists('../Results'):
-        os.makedirs('../Results')
-
-    with open(cID+"_blastp.xml", 'r') as blast_file:
+    with open('../Results'+cID+"_blastp.xml", 'r') as blast_file:
         for line in blast_file:
             if line.strip().startswith('<Hit_def>'):
                 k = '>'+line.split('>')[1].split('<')[0]
