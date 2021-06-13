@@ -98,7 +98,7 @@ def submit_query(driver, query_file):
 
     driver.find_element_by_xpath("//input[@type='submit']").click()
 
-    time.sleep(10)
+    time.sleep(15)
 
     print('Done.')
 
@@ -119,7 +119,7 @@ def download_alignment(driver, query_file):
 
     time.sleep(20)
 
-    os.rename(os.getcwd()+'/'+latestDownloadedFileName, query_file.split('.')[0]+'_MAFFT.fasta')
+    os.rename(os.getcwd()+'/Results/'+latestDownloadedFileName, query_file.split('.')[0]+'_MAFFT.fasta')
 
     print("Done.")
 
