@@ -75,7 +75,7 @@ def start():
     dl_path = os.getcwd()
     profile.set_preference("browser.download.folderList", 2)
     profile.set_preference("browser.download.manager.showWhenStarting", False)
-    profile.set_preference("browser.download.dir", dl_path)
+    profile.set_preference("browser.download.dir", dl_path+'/Results')
     profile.set_preference("browser.helperApps.neverAsk.saveToDisk",
                               "text/plain,text/x-csv,text/csv,application/vnd.ms-excel,application/csv,application/x-csv,text/csv,text/comma-separated-values,text/x-comma-separated-values,text/tab-separated-values,application/pdf")
 

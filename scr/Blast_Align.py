@@ -68,8 +68,8 @@ def run_blastp(sequence, cID):
                 if '&gt' in k:
                     k = k.split('&gt')[0]
             if line.strip().startswith('<Hsp_qseq>'):
-                if k.startswith('RecName: '):
-                    k = k.split('RecName: ')[1]
+                if 'RecName: ' in k:
+                    k = k[8:]
                 dico[k.strip()] = line.split('>')[1].split('<')[0]
                 #print(line.split('>')[1].split('<')[0])
 
@@ -78,9 +78,9 @@ def run_blastp(sequence, cID):
     fasta_seq = open('Results/'+cID+'_HomolSeq.fasta', 'w')
     for k in dico:
         fasta_seq.write(k)
-        fasta_seq.write('\n\n')
-        fasta_seq.write(dico[k].replace("\n", ""))
         fasta_seq.write('\n')
+        fasta_seq.write(dico[k].replace("\n", ""))
+        fasta_seq.write('\n\n')
 
     fasta_seq.close()
 
