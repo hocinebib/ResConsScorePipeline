@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Code to get uniprot id of the protein
+Code to get uniprot id of the protein and download it's fasta sequence
 
   How to use
   ----------
@@ -17,6 +17,7 @@ Then you can run the script with the following command :
 """
 
 import argparse
+import requests
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.firefox.options import Options
@@ -67,6 +68,15 @@ def uniprot_id(driver, protein):
     return name[i].text
 
 
+def download_fasta(fasta_name):
+    """
+    """
+
+    url = 'https://www.uniprot.org/uniprot/'+fasta_name+'.fasta'
+    r = requests.get(url, allow_redirects=True)
+
+    open(fasta_name+'.fasta', 'wb').write(r.content)
+
 
 if __name__ == '__main__':
 
@@ -81,6 +91,6 @@ if __name__ == '__main__':
     browser = start()
 
     for p in PROT_NAMES.split():
-        print(uniprot_id(browser, p))
+        download_fasta(uniprot_id(browser, p))
 
     browser.close()
