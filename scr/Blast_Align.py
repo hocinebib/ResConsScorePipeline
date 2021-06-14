@@ -42,9 +42,10 @@ def get_fasta(prot_id):
 def run_blastp(sequence, cID):
     """
     """
-    #print(sequence)
     print('2)- Running Blastp :')
-
+    
+    # note to myself, don't forget to add :
+    # database and hitlist_size as arguments for the user
     result_handle = NCBIWWW.qblast("blastp", "swissprot", sequence)
 
     print('writing on xml file')
