@@ -1,4 +1,4 @@
-# ResConsScorePipeline
+# ResConservScorePy
 Pipeline writen in python to get a given protein's residues conservation JSD scores
 
 ---
